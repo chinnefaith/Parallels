@@ -1,0 +1,121 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shell Quiz | ShellScan</title>
+    <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+    <link rel="stylesheet" href="{% static 'css/quiz.css' %}">
+</head>
+<body class="quiz-page">
+    <div class="shell">
+         <header class="topbar">
+            <div class="brand">
+                <img class="brand-mark" src="{% static 'images/logo.png' %}" alt="ShellScan logo">
+                <div>
+                    <p class="brand-name">ShellScan</p>
+                    <p class="brand-subtitle">Shells reference library</p>
+                </div>
+            </div>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a class="nav-button" href="{% url 'dashboard' %}">Dashboard</a>
+                <a class="nav-button" href="{% url 'shells_library' %}">Shells Library</a>
+                <a class="nav-button is-active" href="{% url 'shell_quiz' %}" aria-current="page">Quiz</a>
+                <a class="nav-button" href="{% url 'history' %}">History</a>
+                <a class="nav-button" href="{% url 'about_us' %}">About Us</a>
+            </nav>
+            <div class="userbar">
+                <span class="greeting">Hello, {{ user.username }}</span>
+                <form method="post" action="{% url 'signout' %}">
+                    {% csrf_token %}
+                    <button class="logout-button" type="submit">Logout</button>
+                </form>
+            </div>
+        </header>
+
+        <main class="workspace quiz-workspace">
+
+            <section
+                id="quiz-app"
+                class="quiz-app"
+                data-quiz-url="{% static 'quiz/shell_quiz.json' %}"
+                data-image-base="{% static 'quiz/images/' %}"
+            >
+                <p id="quiz-loading" class="quiz-message" role="status">Loading quiz questions…</p>
+                <div id="quiz-error-view" class="quiz-card panel quiz-message quiz-error-view" hidden>
+                    <p id="quiz-error" role="alert">The quiz could not be loaded.</p>
+                    <button id="quiz-retry" class="quiz-button quiz-button-primary" type="button">Try loading again</button>
+                </div>
+
+                <section id="quiz-game" class="quiz-game" aria-labelledby="quiz-question" hidden>
+                    <div class="quiz-page-heading">
+                        <div class="quiz-title-group">
+                            <p class="quiz-eyebrow">TEST YOUR KNOWLEDGE</p>
+                            <h1 id="quiz-title">Shell Quiz</h1>
+                        </div>
+                        <div class="quiz-toolbar">
+                            <span class="quiz-score-pill"><span aria-hidden="true">☆</span> <span id="quiz-score">Score 0</span></span>
+                            <a class="quiz-quit" href="{% url 'shells_library' %}">Quit quiz</a>
+                        </div>
+                    </div>
+
+                    <div class="quiz-card panel">
+                        <div class="quiz-progress-heading">
+                            <span id="quiz-question-number" class="quiz-question-number"></span>
+                            <span id="quiz-progress-label" class="quiz-progress-label"></span>
+                        </div>
+                        <div
+                            id="quiz-progress"
+                            class="quiz-progress"
+                            role="progressbar"
+                            aria-label="Quiz progress"
+                            aria-valuemin="0"
+                            aria-valuemax="10"
+                            aria-valuenow="0"
+                        ></div>
+                        <div id="quiz-content" class="quiz-content">
+                            <figure id="quiz-question-art" class="quiz-question-art">
+                                <span class="quiz-look-badge">Look closely</span>
+                                <div class="quiz-art-placeholder" aria-hidden="true">
+                                    <svg viewBox="0 0 120 120" focusable="false">
+                                        <path d="M24 58h72c0 21-16 38-36 38S24 79 24 58Z"></path>
+                                        <path d="M37 58c0-15 9-25 23-25M54 44c0-9 6-15 15-15M46 96h28"></path>
+                                    </svg>
+                                </div>
+                                <img id="quiz-question-image" alt="" hidden>
+                                <figcaption id="quiz-art-caption" class="quiz-art-caption"></figcaption>
+                            </figure>
+                            <div class="quiz-question-panel">
+                                <h2 id="quiz-question" class="quiz-question" tabindex="-1"></h2>
+                                <div id="quiz-choices" class="quiz-choices"></div>
+                                <p id="quiz-feedback" class="quiz-feedback" role="status" aria-live="polite"></p>
+                                <div class="quiz-actions">
+                                    <button id="quiz-hint" class="quiz-button quiz-button-secondary" type="button"><span aria-hidden="true">♧</span> Show hint</button>
+                                    <button id="quiz-next" class="quiz-button quiz-button-primary" type="button" disabled>Next question <span aria-hidden="true">→</span></button>
+                                </div>
+                                <p id="quiz-hint-text" class="quiz-hint-text" hidden></p>
+                            </div>
+                            <div id="quiz-response" class="quiz-response" role="status" aria-live="assertive" hidden>
+                                <span id="quiz-response-icon" class="quiz-response-icon" aria-hidden="true"></span>
+                                <span id="quiz-response-text"></span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="quiz-results" class="quiz-results quiz-card panel" aria-labelledby="quiz-results-title" hidden>
+                    <p class="quiz-eyebrow">QUIZ COMPLETE</p>
+                    <h2 id="quiz-results-title" tabindex="-1">Your results</h2>
+                    <p id="quiz-final-score" class="quiz-final-score"></p>
+                    <p id="quiz-result-message" class="quiz-result-message"></p>
+                    <div class="quiz-result-actions">
+                        <button id="quiz-restart" class="quiz-button quiz-button-primary" type="button">Play another random quiz</button>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+    <script src="{% static 'js/quiz.js' %}" defer></script>
+</body>
+</html>

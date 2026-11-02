@@ -1,0 +1,96 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ShellScan | Sign in</title>
+	<link rel="stylesheet" href="{% static 'css/signin.css' %}">
+</head>
+<body>
+	<main class="signin-layout">
+		<section class="scan-panel" aria-label="ShellScan shell classification workspace">
+			<a class="product-mark" href="{% url 'signin' %}" aria-label="ShellScan home">
+				<img src="{% static seastem_logo %}" alt="">
+				<span>ShellScan</span>
+			</a>
+
+			<div class="scan-content">
+				<div class="scan-stage" aria-label="Animated scan of the ShellScan logo">
+					<div class="scan-orbit" aria-hidden="true"></div>
+					<div class="scan-corners" aria-hidden="true"></div>
+					<img class="scan-logo" src="{% static seastem_logo %}" alt="ShellScan shell and wave logo">
+					<div class="scan-sweep" aria-hidden="true"></div>
+				</div>
+				<p class="scan-caption">FAMILY · Cyrenidae <span>GENUS · Geloina</span></p>
+			</div>
+
+			<div class="panel-copy">
+				<h1>Every shell has a name.</h1>
+				<p>A classification workspace for your scans.</p>
+				<br>
+				<p>Designed and developed by the prettiest girl in section A - Erika Ambe</p> 
+			</div>
+			<div class="panel-waves" aria-hidden="true"><span></span><span></span></div>
+		</section>
+
+		<section class="form-panel" aria-labelledby="welcome-heading">
+			<div class="form-wrap">
+				<h1 id="welcome-heading">Welcome back</h1>
+				<p class="form-intro">Sign in to continue to your workspace.</p>
+
+				{% if messages %}
+					<div class="messages" role="status">
+						{% for message in messages %}
+							<p class="message">{{ message }}</p>
+						{% endfor %}
+					</div>
+				{% endif %}
+
+				<form method="post">
+					{% csrf_token %}
+					<label for="username">Username</label>
+					<input id="username" name="username" type="text" required autocomplete="username">
+
+					<label for="password">Password</label>
+					<div class="password-field">
+						<input id="password" name="password" type="password" required autocomplete="current-password">
+						<button class="password-toggle" type="button" aria-label="Show password" aria-controls="password" aria-pressed="false">
+							<svg class="eye-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+								<path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"></path>
+								<circle cx="12" cy="12" r="3"></circle>
+							</svg>
+							<svg class="eye-closed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" hidden>
+								<path d="M2 12c2.5 3.1 5.8 4.7 10 4.7s7.5-1.6 10-4.7"></path>
+								<path d="m5 8.5-1.5-1.7M9 6.4 8.5 4.2M15 6.4l.5-2.2M19 8.5l1.5-1.7"></path>
+							</svg>
+						</button>
+					</div>
+
+					<button type="submit">Sign in</button>
+				</form>
+
+				<div class="signup-prompt">
+					<p>New to ShellScan?</p>
+					<a class="signup-link" href="{% url 'signup' %}">Create an account</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script>
+		const passwordInput = document.getElementById('password');
+		const passwordToggle = document.querySelector('.password-toggle');
+		const eyeIcon = passwordToggle.querySelector('.eye-icon');
+		const eyeClosedIcon = passwordToggle.querySelector('.eye-closed-icon');
+
+		passwordToggle.addEventListener('click', () => {
+			const isVisible = passwordInput.type === 'password';
+			passwordInput.type = isVisible ? 'text' : 'password';
+			passwordToggle.setAttribute('aria-label', isVisible ? 'Hide password' : 'Show password');
+			passwordToggle.setAttribute('aria-pressed', String(isVisible));
+			eyeIcon.toggleAttribute('hidden', isVisible);
+			eyeClosedIcon.toggleAttribute('hidden', !isVisible);
+		});
+	</script>
+</body>
+</html>

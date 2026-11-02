@@ -1,0 +1,471 @@
+:root {
+	--navy: #0d2b3a;
+	--navy-light: #174354;
+	--cream: #f5eddf;
+	--paper: #fffdf8;
+	--brown: #80512d;
+	--ink: #183746;
+	--muted: #766b5c;
+	--line: #d9c8af;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0;
+	color: var(--ink);
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+.signin-layout {
+	display: grid;
+	grid-template-columns: minmax(0, 1.06fr) minmax(360px, .94fr);
+	min-height: 100vh;
+}
+
+.scan-panel {
+	position: relative;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+	overflow: hidden;
+	padding: 1.5rem clamp(1.5rem, 3.4vw, 3rem) 2.5rem;
+	background: var(--navy);
+	color: var(--cream);
+}
+
+.product-mark {
+	z-index: 1;
+	display: inline-flex;
+	width: fit-content;
+	align-items: center;
+	gap: .55rem;
+	color: var(--cream);
+	font-family: Georgia, serif;
+	font-size: .95rem;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.product-mark img {
+	width: 2.7rem;
+	height: 2.7rem;
+	object-fit: contain;
+}
+
+.scan-content {
+	position: absolute;
+	top: 38%;
+	left: 50%;
+	display: grid;
+	justify-items: center;
+	width: min(72%, 420px);
+	transform: translate(-50%, -53%);
+}
+
+.scan-stage {
+	position: relative;
+	display: grid;
+	width: min(100%, 360px);
+	aspect-ratio: 1;
+	place-items: center;
+	isolation: isolate;
+}
+
+.scan-orbit {
+	position: absolute;
+	width: 78%;
+	aspect-ratio: 1;
+	border: 1px dashed rgba(70, 169, 190, .35);
+	border-radius: 50%;
+	animation: orbit-pulse 3.8s ease-in-out infinite;
+}
+
+.scan-logo {
+	z-index: 1;
+	width: 82%;
+	height: 82%;
+	object-fit: contain;
+	filter: drop-shadow(0 8px 18px rgba(2, 14, 20, .25));
+}
+
+.scan-corners {
+	position: absolute;
+	inset: 19%;
+	border: 0 solid transparent;
+	background:
+		linear-gradient(var(--cream), var(--cream)) left top / 2px 22px no-repeat,
+		linear-gradient(var(--cream), var(--cream)) left top / 22px 2px no-repeat,
+		linear-gradient(var(--cream), var(--cream)) right top / 2px 22px no-repeat,
+		linear-gradient(var(--cream), var(--cream)) right top / 22px 2px no-repeat,
+		linear-gradient(var(--cream), var(--cream)) left bottom / 2px 22px no-repeat,
+		linear-gradient(var(--cream), var(--cream)) left bottom / 22px 2px no-repeat,
+		linear-gradient(var(--cream), var(--cream)) right bottom / 2px 22px no-repeat,
+		linear-gradient(var(--cream), var(--cream)) right bottom / 22px 2px no-repeat;
+	opacity: .9;
+}
+
+.scan-sweep {
+	position: absolute;
+	z-index: 2;
+	top: 18%;
+	left: 19%;
+	width: 62%;
+	height: 2px;
+	background: #62c6d4;
+	box-shadow: 0 0 12px 3px rgba(69, 199, 213, .45);
+	animation: scan-sweep 3.4s ease-in-out infinite;
+}
+
+.scan-caption {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: .5rem;
+	margin: -.3rem 0 0;
+	color: #9bd4dc;
+	font-size: .66rem;
+	letter-spacing: .055em;
+}
+
+.scan-caption span {
+	padding-left: .5rem;
+	border-left: 1px solid rgba(155, 212, 220, .45);
+}
+
+.panel-copy {
+	position: absolute;
+	z-index: 1;
+	right: clamp(1.5rem, 3.4vw, 3rem);
+	bottom: 5.2rem;
+	left: clamp(1.5rem, 3.4vw, 3rem);
+}
+
+.panel-copy h1 {
+	margin: 0 0 .5rem;
+	color: var(--cream);
+	font: normal clamp(1.7rem, 2.8vw, 2.3rem) Georgia, serif;
+}
+
+.panel-copy p {
+	margin: 0;
+	color: #b8d0d5;
+	font-size: .87rem;
+}
+
+.panel-waves {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 4.5rem;
+	overflow: hidden;
+	background: #1a5363;
+	clip-path: polygon(0 27%, 8% 9%, 18% 19%, 32% 58%, 44% 49%, 55% 11%, 67% 27%, 78% 46%, 89% 4%, 100% 25%, 100% 100%, 0 100%);
+}
+
+.panel-waves span {
+	position: absolute;
+	inset: 1.8rem 0 0;
+	background: #327286;
+	clip-path: polygon(0 36%, 14% 14%, 27% 28%, 43% 55%, 58% 39%, 72% 7%, 84% 31%, 100% 18%, 100% 100%, 0 100%);
+}
+
+.panel-waves span + span {
+	inset: 2.9rem 0 0;
+	background: #d8c7a8;
+	clip-path: polygon(0 51%, 13% 37%, 28% 45%, 40% 67%, 58% 44%, 72% 34%, 84% 50%, 100% 38%, 100% 100%, 0 100%);
+}
+
+.form-panel {
+	display: grid;
+	min-height: 100vh;
+	place-items: center;
+	padding: 2rem clamp(2rem, 7vw, 6rem);
+	background: var(--cream);
+}
+
+.form-wrap {
+	width: min(100%, 400px);
+}
+
+.form-wrap form {
+	gap: .8rem;
+}
+
+.form-wrap h1 {
+	margin: 0 0 .45rem;
+	color: var(--navy);
+	font: bold clamp(1.8rem, 2.6vw, 2.25rem) Georgia, serif;
+}
+
+.form-intro {
+	margin: 0 0 1.4rem;
+	color: #526878;
+	font-size: .88rem;
+}
+
+.messages {
+	margin-bottom: 1.1rem;
+}
+
+.signup-field {
+	display: grid;
+	gap: .55rem;
+}
+
+.field-help {
+	color: #526878;
+	font-size: .72rem;
+	line-height: 1.45;
+}
+
+.field-help ul {
+	margin: .3rem 0 0;
+	padding-left: 1.2rem;
+}
+
+.field-errors,
+.signup-errors {
+	color: #8b3434;
+	font-size: .75rem;
+	line-height: 1.45;
+}
+
+.field-errors ul,
+.signup-errors ul {
+	margin: 0;
+	padding-left: 1.2rem;
+}
+
+.signup-errors {
+	padding: .7rem .8rem;
+	border: 1px solid #d8aaaa;
+	border-radius: 6px;
+	background: #f7e9e4;
+}
+
+.message {
+	margin: 0 0 .5rem;
+	padding: .7rem .8rem;
+	border: 1px solid #c5b99f;
+	border-radius: 6px;
+	background: #eee3cf;
+	color: var(--navy);
+	font-size: .82rem;
+}
+
+form {
+	display: grid;
+	gap: .55rem;
+}
+
+label {
+	margin-top: .3rem;
+	color: var(--navy);
+	font-size: .73rem;
+	font-weight: bold;
+}
+
+input {
+	width: 100%;
+	min-height: 2.5rem;
+	padding: .7rem .8rem;
+	border: 1px solid #c5b99f;
+	border-radius: 8px;
+	background: #fffaf0;
+	color: var(--navy);
+	font: inherit;
+}
+
+input:focus {
+	border-color: var(--navy-light);
+	outline: 2px solid rgba(23, 67, 84, .2);
+}
+
+.password-field {
+	position: relative;
+}
+
+.password-field input {
+	padding-right: 3.5rem;
+}
+
+button.password-toggle {
+	position: absolute;
+	top: 50%;
+	right: .65rem;
+	display: grid;
+	width: 2rem;
+	min-height: 2rem;
+	place-items: center;
+	margin: 0;
+	padding: .35rem;
+	transform: translateY(-50%);
+	border: 0;
+	background: transparent;
+	color: var(--navy-light);
+	cursor: pointer;
+}
+
+button.password-toggle:hover {
+	background: rgba(13, 43, 58, .08);
+}
+
+.password-toggle:focus-visible {
+	outline: 2px solid var(--navy-light);
+	outline-offset: 2px;
+}
+
+.password-toggle svg {
+	width: 1.2rem;
+	height: 1.2rem;
+	fill: none;
+	stroke: currentColor;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 1.8;
+}
+
+.password-toggle svg[hidden] {
+	display: none;
+}
+
+button,
+.signup-link {
+	display: grid;
+	min-height: 2.55rem;
+	place-items: center;
+	border: 1px solid var(--navy);
+	border-radius: 8px;
+	font: inherit;
+	font-size: .84rem;
+	text-decoration: none;
+	transition: background-color 160ms ease, color 160ms ease;
+}
+
+button {
+	margin-top: .75rem;
+	background: var(--navy);
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	background: var(--navy-light);
+}
+
+.signup-prompt {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.signup-prompt p {
+	display: flex;
+	align-items: center;
+	gap: .8rem;
+	margin: 0 0 1rem;
+	color: #526878;
+	font-size: .75rem;
+}
+
+.signup-prompt p::before,
+.signup-prompt p::after {
+	height: 1px;
+	flex: 1;
+	background: #c5b99f;
+	content: "";
+}
+
+.signup-link {
+	background: transparent;
+	color: var(--navy);
+	font-size: .8rem;
+}
+
+.signup-link:hover {
+	background: rgba(13, 43, 58, .07);
+}
+
+@keyframes scan-sweep {
+	0%, 8% { top: 18%; opacity: 0; }
+	16% { opacity: 1; }
+	78% { top: 80%; opacity: 1; }
+	88%, 100% { top: 80%; opacity: 0; }
+}
+
+@keyframes orbit-pulse {
+	0%, 100% { transform: scale(.96); opacity: .55; }
+	50% { transform: scale(1.04); opacity: 1; }
+}
+
+@media (max-width: 760px) {
+	.signin-layout {
+		grid-template-columns: 1fr;
+	}
+
+	.scan-panel {
+		min-height: 390px;
+		padding: 1.2rem 1.4rem 2rem;
+	}
+
+	.scan-content {
+		top: 43%;
+		width: min(68%, 280px);
+	}
+
+	.scan-stage {
+		width: min(100%, 260px);
+	}
+
+	.scan-caption {
+		font-size: .52rem;
+	}
+
+	.panel-copy {
+		right: 1.4rem;
+		bottom: 3.8rem;
+		left: 1.4rem;
+	}
+
+	.panel-copy h1 {
+		font-size: 1.6rem;
+	}
+
+	.panel-copy p {
+		max-width: 18rem;
+		font-size: .78rem;
+	}
+
+	.panel-waves {
+		height: 3rem;
+	}
+
+	.form-panel {
+		min-height: auto;
+		padding: 3rem 1.5rem 3.5rem;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.scan-orbit,
+	.scan-sweep {
+		animation: none;
+	}
+
+	.scan-sweep {
+		top: 50%;
+		opacity: .7;
+	}
+
+	button,
+	.signup-link {
+		transition: none;
+	}
+}

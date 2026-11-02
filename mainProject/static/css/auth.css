@@ -1,0 +1,18 @@
+:root { --green: #3b2418; --accent: #9b7045; --mint: #f4eadc; --ink: #3e2a1f; --muted: #806b5c; --line: #e5d8c8; }
+* { box-sizing: border-box; }
+body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: #fff; color: var(--ink); font-family: "Trebuchet MS", sans-serif; }
+main { width: min(440px, calc(100% - 2rem)); padding: 2.5rem; border: 1px solid var(--line); box-shadow: 0 16px 40px rgba(91, 58, 32, .12); background: #fff; }
+.brand { display: grid; justify-items: center; gap: .7rem; margin-bottom: 2rem; text-align: center; }
+.brand img { width: 7rem; height: 7rem; border-radius: 50%; }
+.brand h1, h1 { margin: 0; font: normal 2rem Georgia, serif; }
+.brand p { margin: 0; color: var(--muted); font-size: .82rem; }
+form { display: grid; gap: .7rem; } form p { display: grid; gap: .35rem; margin: 0; }
+label { font-size: .78rem; font-weight: bold; }
+input { width: 100%; padding: .8rem; border: 1px solid var(--line); background: #fdfaf6; color: var(--ink); font: inherit; }
+input:focus { outline: 2px solid #d6b78e; border-color: var(--accent); }
+button { margin-top: .7rem; padding: .8rem; border: 0; background: var(--accent); color: #fff; font: inherit; font-weight: bold; cursor: pointer; }
+button:hover { background: var(--green); }
+.message { margin-bottom: 1rem; padding: .7rem; background: var(--mint); color: var(--green); font-size: .8rem; }
+.footer { margin: 1.5rem 0 0; color: var(--muted); text-align: center; font-size: .8rem; }
+a { color: var(--accent); font-weight: bold; }
+.errorlist { margin: .1rem 0; padding: 0; color: #a3483f; list-style: none; font-size: .75rem; }

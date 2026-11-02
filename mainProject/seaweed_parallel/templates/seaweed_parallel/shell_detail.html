@@ -1,0 +1,179 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ shell.basic_identification.common_name }} | ShellScans</title>
+    <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+    <link rel="stylesheet" href="{% static 'css/shells-library.css' %}">
+    <link rel="stylesheet" href="{% static 'css/shell-detail.css' %}">
+</head>
+<body> 
+    <header class="topbar">
+            <div class="brand">
+                <img class="brand-mark" src="{% static seastem_logo %}" alt="Seastem logo">
+                <div>
+                    <p class="brand-name">ShellScans</p>
+                    <p class="brand-subtitle">Shells reference library</p>
+                </div>
+            </div>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a class="nav-button" href="{% url 'dashboard' %}">Dashboard</a>
+                <a class="nav-button is-active" href="{% url 'shells_library' %}" aria-current="page">Shells Library</a>
+                <a class="nav-button" href="{% url 'shell_quiz' %}">Quiz</a>
+                <a class="nav-button" href="{% url 'history' %}">History</a>
+                <a class="nav-button" href="{% url 'about_us' %}">About Us</a>
+            </nav>
+            <div class="userbar">
+                <span class="greeting">Hello, {{ user.username }}</span>
+                <form method="post" action="{% url 'signout' %}">
+                    {% csrf_token %}
+                    <button class="logout-button" type="submit">Logout</button>
+                </form>
+            </div>
+        </header>
+    <div class="detail-page"> 
+        <main class="detail-workspace"> 
+            
+            <nav class="detail-breadcrumb" aria-label="Breadcrumb">
+                <a href="{% url 'shells_library' %}">Shells library</a>
+                <span aria-hidden="true">/</span>
+                <span aria-current="page">{{ shell.basic_identification.common_name }}</span>
+            </nav>
+
+            <section class="shell-profile">
+                <div class="profile-image">
+                    {% if shell.image_url %}
+                        <img src="{{ shell.image_url }}" alt="{{ shell.basic_identification.common_name }}">
+                    {% else %}
+                        <div class="shell-image-placeholder" role="img" aria-label="No image available for {{ shell.basic_identification.common_name }}">
+                            <span aria-hidden="true">{{ shell.basic_identification.common_name|slice:":1" }}</span>
+                        </div>
+                    {% endif %}
+                    <span class="profile-image-caption">SHELL REFERENCE · {{ category_name }}</span>
+                </div>
+                <div class="profile-summary">
+                    <p class="library-eyebrow">FIELD GUIDE <span aria-hidden="true">/</span> {{ category_name }}</p>
+                    <h1>{{ shell.basic_identification.common_name }}</h1>
+                    <p class="profile-scientific-name">{{ shell.basic_identification.scientific_name }}</p>
+                    {% if shell.appearance.shell_shape %}
+                        <p class="profile-description">{{ shell.appearance.shell_shape }}</p>
+                    {% endif %}
+                    {% if shell.habitat_fields %}
+                        <section class="profile-habitat" id="habitat-summary" aria-labelledby="habitat-heading">
+                            <h2 id="habitat-heading">Habitat</h2>
+                            <dl>
+                                {% for field in shell.habitat_fields %}
+                                    <div>
+                                        <dt>{{ field.label }}</dt>
+                                        <dd>{{ field.value }}</dd>
+                                    </div>
+                                {% endfor %}
+                            </dl>
+                        </section>
+                    {% endif %}
+                    <dl class="profile-facts">
+                        <div>
+                            <dt>Family</dt>
+                            <dd>{{ shell.basic_identification.family|default:"Not listed" }}</dd>
+                        </div>
+                        <div>
+                            <dt>Genus</dt>
+                            <dd>{{ shell.basic_identification.genus|default:"Not listed" }}</dd>
+                        </div>
+                        <div>
+                            <dt>Typical size</dt>
+                            <dd>{{ shell.appearance.size|default:"Not listed" }}</dd>
+                        </div>
+                    </dl>
+                    <div class="profile-actions">
+                        <a class="profile-primary-action" href="{% url 'dashboard' %}">Classify a photo <span aria-hidden="true">→</span></a>
+                        <a class="profile-secondary-action" href="{% url 'shells_library' %}">Back to library</a>
+                    </div>
+                </div>
+            </section>
+
+            <nav class="detail-section-nav" aria-label="Shell detail sections">
+                {% if shell.habitat_fields %}
+                    <a href="#habitat-summary">Habitat</a>
+                {% endif %}
+                {% for section in shell.detail_sections %}
+                    <a href="#detail-section-{{ forloop.counter }}">{{ section.title }}</a>
+                {% endfor %}
+                {% if similar_species %}
+                    <a href="#similar-species-heading">Similar species</a>
+                {% endif %}
+            </nav>
+
+            <section class="reference-section" aria-labelledby="reference-heading">
+                <header class="reference-heading">
+                    <div>
+                        <p class="library-eyebrow">SPECIES NOTES</p>
+                        <h2 id="reference-heading">Shell reference</h2>
+                    </div>
+                    <span class="reference-count">{{ shell.detail_sections|length }} sections</span>
+                </header>
+                <div class="detail-sections">
+                    {% for section in shell.detail_sections %}
+                        <section class="detail-panel" id="detail-section-{{ forloop.counter }}" aria-labelledby="section-{{ forloop.counter }}">
+                            <header class="detail-panel-heading">
+                                <span class="detail-panel-number">{{ forloop.counter|stringformat:"02d" }}</span>
+                                <h3 id="section-{{ forloop.counter }}">{{ section.title }}</h3>
+                            </header>
+                            <dl class="detail-fields">
+                                {% for field in section.fields %}
+                                    <div>
+                                        <dt>{{ field.label }}</dt>
+                                        <dd>{{ field.value }}</dd>
+                                    </div>
+                                {% endfor %}
+                            </dl>
+                        </section>
+                    {% endfor %}
+
+                    {% if similar_species %}
+                        <section class="detail-panel" aria-labelledby="similar-species-heading">
+                            <h3 id="similar-species-heading">Similar species</h3>
+                            <ul class="similar-species-list">
+                                {% for species in similar_species %}
+                                    <li>{{ species }}</li>
+                                {% endfor %}
+                            </ul>
+                        </section>
+                    {% endif %}
+                </div>
+            </section>
+
+            {% if related_shells %}
+                <section class="related-section" aria-labelledby="related-heading">
+                    <div class="related-heading">
+                        <div>
+                            <p class="library-eyebrow">FROM THE SAME SHELL CLASS</p>
+                            <h2 id="related-heading">More {{ category_name|lower }} shells</h2>
+                        </div>
+                        <a href="{% url 'shells_library' %}">Browse all shells <span aria-hidden="true">→</span></a>
+                    </div>
+                    <div class="related-grid">
+                        {% for related in related_shells %}
+                            <a class="related-card" href="{% url 'shell_detail' shell_id=related.id %}" aria-label="View {{ related.basic_identification.common_name }}, {{ related.basic_identification.scientific_name }}">
+                                <div class="related-image">
+                                    {% if related.image_url %}
+                                        <img src="{{ related.image_url }}" alt="" loading="lazy">
+                                    {% else %}
+                                        <span aria-hidden="true">{{ related.basic_identification.common_name|slice:":1" }}</span>
+                                    {% endif %}
+                                </div>
+                                <div>
+                                    <h3>{{ related.basic_identification.common_name }}</h3>
+                                    <p>{{ related.basic_identification.scientific_name }}</p>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    </div>
+                </section>
+            {% endif %}
+        </main>
+    </div>
+</body>
+</html>

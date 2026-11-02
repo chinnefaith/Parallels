@@ -1,0 +1,113 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShellScan | Classification History</title>
+    <link rel="stylesheet" href="{% static 'css/history.css' %}">
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">
+            <img class="brand-mark" src="{% static seastem_logo %}" alt="ShellScan logo">
+            <div>
+                <p class="brand-name"><b>ShellScan</b></p>
+                <p class="brand-subtitle">Classification history</p>
+            </div>
+        </div>
+        <nav class="nav-links" aria-label="Primary navigation">
+            <a class="nav-button" href="{% url 'dashboard' %}">Dashboard</a>
+            <a class="nav-button" href="{% url 'shells_library' %}">Shells Library</a>
+            <a class="nav-button" href="{% url 'shell_quiz' %}">Quiz</a>
+            <a class="nav-button is-active" href="{% url 'history' %}" aria-current="page">History</a>
+            <a class="nav-button" href="{% url 'about_us' %}">About Us</a>
+        </nav>
+        <div class="userbar">
+            <span class="greeting">Hello, {{ user.username }}</span>
+            <form method="post" action="{% url 'signout' %}">
+                {% csrf_token %}
+                <button class="logout-button" type="submit">Logout</button>
+            </form>
+        </div>
+    </header>
+    <main class="workspace">
+        <section class="page-heading">
+            <div>
+                <p class="eyebrow">Your workspace</p>
+                <h1>Batch history</h1>
+                <p class="intro">All classification batches belonging to {{ user.username }}. The dashboard keeps the latest batch for active monitoring.</p>
+            </div>
+            <span class="history-count">{{ page_obj.paginator.count }} batch{{ page_obj.paginator.count|pluralize }}</span>
+        </section>
+        {% for batch in batches %}
+            <section class="batch panel">
+                <div class="batch-header">
+                    <div>
+                        <h2>Batch {{ batch.id }}</h2>
+                        <time datetime="{{ batch.created_at|date:'c' }}">{{ batch.created_at|date:"M j, Y H:i" }}</time>
+                    </div>
+                    <span class="status">{{ batch.status }}</span>
+                </div>
+                <div class="summary">
+                    <span>Total <strong>{{ batch.total_images }}</strong></span>
+                    <span>Completed <strong>{{ batch.completed_count }}</strong></span>
+                    <span>Failed <strong>{{ batch.failed_count }}</strong></span>
+                    <span>Average confidence <strong>{% if batch.average_confidence is not None %}{{ batch.average_confidence|floatformat:3 }}{% else %}-{% endif %}</strong></span>
+                    <span>Total time <strong>{% if batch.total_processing_time is not None %}{{ batch.total_processing_time|floatformat:3 }}s{% else %}-{% endif %}</strong></span>
+                </div>
+                <div class="progress" role="progressbar" aria-label="Batch {{ batch.id }} completion" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{ batch.progress_percent }}"><span style="width:{{ batch.progress_percent }}%"></span></div>
+                <div class="table-scroll">
+                    <table>
+                        <thead>
+                            <tr><th>Image</th><th>Status</th><th>Prediction</th><th>Confidence</th><th>Processing time</th><th>Worker</th><th>Node</th></tr>
+                        </thead>
+                        <tbody>
+                            {% for result in batch.results.all %}
+                                <tr>
+                                    <td title="{{ result.image.name }}"><img class="result-thumbnail" src="{{ result.image.url }}" alt="{{ result.image.name }}"></td>
+                                    <td><span class="result-status">{{ result.status }}</span></td>
+                                    <td>{{ result.predicted_class|default:"-" }}</td>
+                                    <td>{% if result.confidence is not None %}{{ result.confidence|floatformat:3 }}{% else %}-{% endif %}</td>
+                                    <td>{% if result.processing_time is not None %}{{ result.processing_time|floatformat:3 }}s{% else %}-{% endif %}</td>
+                                    <td>{{ result.worker_name|default:"-" }}</td>
+                                    <td>{{ result.node_name|default:"-" }}</td>
+                                </tr>
+                            {% empty %}
+                                <tr><td class="no-results" colspan="7">No image results in this batch.</td></tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        {% empty %}
+            <div class="empty panel">No classification history yet. Start a classification to see your batches here.</div>
+        {% endfor %}
+
+        {% if page_obj.paginator.num_pages > 1 %}
+            <nav class="pagination" aria-label="History pages">
+                {% if page_obj.has_previous %}
+                    <a class="page-control" href="?page={{ page_obj.previous_page_number }}" aria-label="Go to previous page">Previous</a>
+                {% else %}
+                    <span class="page-control is-disabled" aria-disabled="true">Previous</span>
+                {% endif %}
+                <div class="page-numbers">
+                    {% for page_number in page_obj.paginator.page_range %}
+                        {% if page_number == page_obj.number %}
+                            <span class="page-number is-current" aria-current="page">{{ page_number }}</span>
+                        {% else %}
+                            <a class="page-number" href="?page={{ page_number }}" aria-label="Go to page {{ page_number }}">{{ page_number }}</a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                {% if page_obj.has_next %}
+                    <a class="page-control" href="?page={{ page_obj.next_page_number }}" aria-label="Go to next page">Next</a>
+                {% else %}
+                    <span class="page-control is-disabled" aria-disabled="true">Next</span>
+                {% endif %}
+            </nav>
+        {% endif %}
+    </main>
+    <script src="{% static 'js/history.js' %}"></script>
+</body>
+</html>

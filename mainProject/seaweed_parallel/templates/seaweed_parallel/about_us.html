@@ -1,0 +1,163 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Us | ShellScan</title>
+	<link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+<body>
+	<header class="topbar">
+		<a class="brand" href="{% url 'dashboard' %}">
+			<img src="{% static 'images/logo.png' %}" alt="ShellScan logo">
+			<span>ShellScan</span>
+		</a>
+		<nav aria-label="Primary navigation">
+			<a href="{% url 'dashboard' %}">Dashboard</a>
+			<a href="{% url 'shells_library' %}">Shells Library</a>
+			<a href="{% url 'shell_quiz' %}">Quiz</a>
+			<a href="{% url 'history' %}">History</a>
+			<a class="active" href="{% url 'about_us' %}" aria-current="page">About Us</a>
+		</nav>
+		<div class="userbar">
+			<span>{{ user.username }}</span>
+			<form method="post" action="{% url 'signout' %}">
+				{% csrf_token %}
+				<button type="submit">Sign out</button>
+			</form>
+		</div>
+	</header>
+
+	<main class="about-page">
+		<section class="hero">
+			<div class="hero-copy">
+				<p class="eyebrow">About ShellScan</p>
+				<h1>AI-powered shell identification and classification workspace.</h1>
+				<p>ShellScan helps researchers, students, and coastal communities identify and classify shell species using artificial intelligence. Upload a single image or a batch of images, and get fast, accurate results with confidence scores and processing history.</p>
+				<div class="hero-actions">
+					<a class="button primary" href="{% url 'dashboard' %}">Try a classification <span aria-hidden="true">→</span></a>
+					<a class="button secondary" href="{% url 'shells_library' %}">Browse shells library</a>
+				</div>
+			</div>
+			<div class="hero-art" aria-label="ShellScan shell identification">
+				<img src="{% static 'images/shell.png' %}" alt="ShellScan shell logo">
+				<div class="quick-card">
+					<div class="quick-item">
+						<span class="quick-icon" aria-hidden="true">◉</span>
+						<div><strong>Single image</strong><p>Upload one image and get instant classification with confidence score.</p></div>
+					</div>
+					<div class="quick-item">
+						<span class="quick-icon grid-icon" aria-hidden="true">▦</span>
+						<div><strong>Multi-image</strong><p>Upload multiple images and let the system process them in parallel.</p></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="content-section">
+			<div class="section-intro">
+				<h2>What ShellScan does</h2>
+				<p>Powerful features designed for accurate, efficient, and educational shell classification.</p>
+			</div>
+			<div class="feature-grid">
+				<article class="feature-card">
+					<span class="feature-icon" aria-hidden="true">◉</span>
+					<h3>AI Shell Identification</h3>
+					<p>Uses a fine-tuned EfficientNetB2 model to classify shell species from images with high accuracy.</p>
+				</article>
+				<article class="feature-card">
+					<span class="feature-icon" aria-hidden="true">▤</span>
+					<h3>Parallel Processing</h3>
+					<p>Distributes classification tasks across multiple worker nodes for faster results.</p>
+				</article>
+				<article class="feature-card">
+					<span class="feature-icon" aria-hidden="true">✓</span>
+					<h3>Confidence-based Results</h3>
+					<p>Provides a confidence score for each prediction so you can assess reliability.</p>
+				</article>
+				<article class="feature-card">
+					<span class="feature-icon" aria-hidden="true">◷</span>
+					<h3>Classification History</h3>
+					<p>Keeps a record of your past predictions, including images, results, and processing details.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="content-section workflow-section">
+			<div class="section-intro">
+				<h2>How the system works</h2>
+				<p>From image upload to classification — in just a few steps.</p>
+			</div>
+			<div class="workflow-grid">
+				<article class="workflow-card"><span class="step-number">1</span><span class="workflow-icon" aria-hidden="true">↑</span><h3>Upload</h3><p>Choose a single image or multiple images from your device.</p></article>
+				<article class="workflow-card"><span class="step-number">2</span><span class="workflow-icon" aria-hidden="true">▣</span><h3>Preprocess</h3><p>Resize, normalize, convert to RGB, and process using the same pipeline as training.</p></article>
+				<article class="workflow-card"><span class="step-number">3</span><span class="workflow-icon" aria-hidden="true">▤</span><h3>Parallel classification</h3><p>Tasks are distributed to multiple workers/nodes for simultaneous processing.</p></article>
+				<article class="workflow-card"><span class="step-number">4</span><span class="workflow-icon" aria-hidden="true">✓</span><h3>Results</h3><p>Get predicted species, confidence scores, and detailed information in real time.</p></article>
+			</div>
+		</section>
+
+		<section class="content-section parallel-section">
+			<div class="section-intro">
+				<h2>Built for parallel processing</h2>
+				<p>ShellScan uses Celery and Redis to distribute classification tasks across multiple worker nodes. This ensures faster processing, better resource utilization, and real-time updates through WebSockets.</p>
+			</div>
+			<div class="architecture" aria-label="ShellScan parallel processing architecture">
+				<div class="architecture-card app-node"><span class="architecture-icon" aria-hidden="true">▣</span><strong>Django App</strong><small>Upload images<br>and create tasks</small></div>
+				<span class="connector" aria-hidden="true">→</span>
+				<div class="architecture-card redis-node"><span class="architecture-icon" aria-hidden="true">▤</span><strong>Redis</strong><small>Message broker<br>&amp; task queue</small></div>
+				<span class="connector" aria-hidden="true">→</span>
+				<div class="worker-nodes">
+					<div class="worker-node"><span>⚙</span><strong>Worker 1</strong><small>NODE_A</small></div>
+					<div class="worker-node"><span>⚙</span><strong>Worker 2</strong><small>NODE_B</small></div>
+					<div class="worker-node"><span>⚙</span><strong>Worker 3</strong><small>NODE_C</small></div>
+					<div class="worker-node"><span>⚙</span><strong>Worker 4</strong><small>NODE_D</small></div>
+					<div class="worker-node"><span>⚙</span><strong>Worker 5</strong><small>NODE_E</small></div>
+				</div>
+				<span class="connector" aria-hidden="true">→</span>
+				<div class="architecture-card results-node"><span class="architecture-icon" aria-hidden="true">▥</span><strong>Parallel results</strong><small>Classification results<br>returned in real time</small></div>
+			</div>
+			<div class="system-points">
+				<div><span aria-hidden="true">♧</span><strong>5</strong><small>Worker nodes</small></div>
+				<div><span aria-hidden="true">ϟ</span><strong>Parallel</strong><small>Task execution</small></div>
+				<div><span aria-hidden="true">◉</span><strong>Real-time</strong><small>Progress updates</small></div>
+			</div>
+		</section>
+
+		<section class="info-grid">
+			<article class="info-card">
+				<span class="feature-icon" aria-hidden="true">▥</span>
+				<h3>Prediction transparency</h3>
+				<p>Each prediction includes confidence score and the full probability distribution across classes. This helps you understand the model's certainty.</p>
+				<strong class="info-highlight">Predictions are estimates, not absolute truth.</strong>
+				<strong class="info-highlight">Always verify important results with expert references.</strong>
+			</article>
+			<article class="info-card">
+				<span class="feature-icon" aria-hidden="true">◫</span>
+				<h3>For learning and reference</h3>
+				<p>ShellScan is built primarily to assist students and enthusiasts. Use it as a reference tool to learn about different species, not as a replacement for expert identification.</p>
+				<a href="{% url 'shells_library' %}">Browse shell library <span aria-hidden="true">→</span></a>
+				<a href="{% url 'history' %}">View history <span aria-hidden="true">→</span></a>
+			</article>
+			<article class="info-card limitations-card">
+				<span class="feature-icon" aria-hidden="true">△</span>
+				<h3>System limitations</h3>
+				<p>While ShellScan is highly accurate, keep a few important limitations in mind.</p>
+				<ul>
+					<li>Image quality matters — blurry or cropped shells may reduce accuracy.</li>
+					<li>Limited to trained classes — species not included in the dataset may be misclassified.</li>
+					<li>Verify results — use predictions as a reference, not as a substitute for expert identification.</li>
+				</ul>
+			</article>
+		</section>
+
+		<section class="callout">
+			<div><p class="eyebrow">Ready to get started?</p><h2>Explore the power of AI for shell identification.</h2><p>Upload an image, browse the library, or learn more about the system.</p></div>
+			<div class="hero-actions">
+				<a class="button light-button" href="{% url 'dashboard' %}">Try a classification <span aria-hidden="true">→</span></a>
+				<a class="button outline-button" href="{% url 'shells_library' %}">Browse shell library</a>
+			</div>
+		</section>
+	</main>
+</body>
+</html>

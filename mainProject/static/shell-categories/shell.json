@@ -1,0 +1,2598 @@
+[
+  
+  {
+    "basic_identification": {
+      "common_name": "Lapas/Kapinan",
+      "scientific_name": "Haliotis spp.",
+      "family": "Haliotidae",
+      "genus": "Haliotis",
+      "classification": "Gastropod",
+      "conservation_status": "Varies by species (e.g., White Abalone is Critically Endangered)"
+    },
+    "image_path": "static/images/shells/abalones.png",
+    "appearance": {
+      "shell_shape": "Ear-shaped, flattened, low spiral convex dome",
+      "shell_color": "Brownish-green exterior; brilliant iridescent rainbow interior (nacre)",
+      "pattern": "Curved row of open respiratory pores along outer margin",
+      "surface_texture": "Rough and encrusted exterior; smooth iridescent mother-of-pearl interior",
+      "size": "10–30 cm",
+      "distinctive_markings": "Row of small open respiratory holes (tremata) near the shell edge"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal and sublittoral ocean reefs",
+      "water_type": "Marine",
+      "depth_range": "0–40 m",
+      "geographic_distribution": "Worldwide (Pacific, Atlantic, Indian Ocean coastal areas)",
+      "typical_environment": "Attached firmly to rocky substrates and kelp forest crevices"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (edges can be sharp)",
+      "toxicity": "Non-toxic (can absorb paralytic toxins during toxic algal red tides)",
+      "human_consumption": "Highly prized delicacy in global seafood markets"
+    },
+    "similar_species": [
+      "Keyhole Limpet (Fissurellidae)",
+      "Ormer (Haliotis tuberculata)"
+    ]
+  },
+  
+
+  {
+    "basic_identification": {
+      "common_name": "Paper nautilus",
+      "scientific_name": "Argonauta argo",
+      "family": "Argonautidae",
+      "genus": "Argonauta",
+      "classification": "Cephalopod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/argonaut.png",
+    "appearance": {
+      "shell_shape": "Paper-thin, laterally compressed, boat-shaped egg case",
+      "shell_color": "White to ivory with dark brown nodular keel",
+      "pattern": "Ribbed ridges radiating across sides toward a double-keeled edge",
+      "surface_texture": "Brittle, paper-like, delicately ridged",
+      "size": "10–30 cm",
+      "distinctive_markings": "Double row of dark brown knobs along the central perimeter ridge"
+    },
+    "habitat": {
+      "habitat_type": "Pelagic open ocean",
+      "water_type": "Marine",
+      "depth_range": "0–100 m",
+      "geographic_distribution": "Worldwide tropical and subtropical waters",
+      "typical_environment": "Floating in upper ocean surface currents"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (extremely fragile shell)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not commercially targeted; consumed rarely in local fisheries"
+    },
+    "similar_species": [
+      "Chambered Nautilus (Nautilus pompilius)",
+      "Ram's Horn Squid (Spirula spirula)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Bubble shell",
+      "scientific_name": "Bulla ampulla",
+      "family": "Bullidae",
+      "genus": "Bulla",
+      "classification": "Gastropod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/bubble shells.png",
+    "appearance": {
+      "shell_shape": "Oval, subglobular, inflated shell with a sunken spire",
+      "shell_color": "Cream, beige, or mottled brown with darker blotches",
+      "pattern": "Marbled clouding with reddish-brown flecks",
+      "surface_texture": "Smooth and polished",
+      "size": "3–6 cm",
+      "distinctive_markings": "Deeply sunken (umbilicate) spire at apex and wide smooth aperture"
+    },
+    "habitat": {
+      "habitat_type": "Shallow muddy bays and seagrass beds",
+      "water_type": "Marine",
+      "depth_range": "0–20 m",
+      "geographic_distribution": "Indo-Pacific and Atlantic coastal regions",
+      "typical_environment": "Buried in soft sand or mud during daytime"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible / Not consumed",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not used for food due to small flesh mass and soft body chemicals"
+    },
+    "similar_species": [
+      "Moon Snail (Naticidae)",
+      "Haminoea Bubble Snail (Haminoeidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Lagang",
+      "scientific_name": "Nautilus pompilius",
+      "family": "Nautilidae",
+      "genus": "Nautilus",
+      "classification": "Cephalopod",
+      "conservation_status": "Vulnerable"
+    },
+    "image_path": "static/images/shells/chambered nautilus.png",
+    "appearance": {
+      "shell_shape": "Smooth, coiled, internally chambered planispiral shell",
+      "shell_color": "White background with reddish-brown zebra-like stripes",
+      "pattern": "Radial orange-brown wavy bars spreading outward from center",
+      "surface_texture": "Smooth, glossy, with pearly nacre interior",
+      "size": "15–25 cm",
+      "distinctive_markings": "Internal camerae (air chambers) divided by mother-of-pearl septa"
+    },
+    "habitat": {
+      "habitat_type": "Deep ocean reef drop-offs and fore-reef slopes",
+      "water_type": "Marine",
+      "depth_range": "100–700 m",
+      "geographic_distribution": "Indo-Pacific Ocean",
+      "typical_environment": "Deep water ocean slopes near tropical coral reefs"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle shell (living animals possess a sharp parrot-like beak)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Protected species; trade strictly regulated under CITES"
+    },
+    "similar_species": [
+      "Paper Nautilus (Argonauta argo)",
+      "Allonautilus (Allonautilus scrobiculatus)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Lumban/Buwao",
+      "scientific_name": "Cypraeidae spp.",
+      "family": "Cypraeidae",
+      "genus": "Cypraea",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/cowries.png",
+    "appearance": {
+      "shell_shape": "Egg-shaped dome with flat underside and concealed spire",
+      "shell_color": "Highly variable (porcelain white, cream, spotted, or banded)",
+      "pattern": "Glossy solid color, fine spots, or intricate mottling",
+      "surface_texture": "High-gloss porcelain polish coating entire outer shell",
+      "size": "2–15 cm",
+      "distinctive_markings": "Long narrow aperture running length of underside lined with fine teeth"
+    },
+    "habitat": {
+      "habitat_type": "Coral reefs, rocky tide pools, under boulders",
+      "water_type": "Marine",
+      "depth_range": "0–30 m",
+      "geographic_distribution": "Worldwide tropical and subtropical seas",
+      "typical_environment": "Hidden inside reef crevices or beneath dead coral during daylight"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible / Not eaten",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not a food source; historically used as currency and jewelry"
+    },
+    "similar_species": [
+      "Ovulidae (False Cowries)",
+      "Margin Snail (Marginellidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Northern quahog",
+      "scientific_name": "Mercenaria mercenaria",
+      "family": "Veneridae",
+      "genus": "Mercenaria",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/hard clams.png",
+    "appearance": {
+      "shell_shape": "Thick, heavy, heart-shaped to oval symmetrical bivalve",
+      "shell_color": "Dull greyish-white exterior; deep purple staining inside margin",
+      "pattern": "Concentric growth rings across outer valve",
+      "surface_texture": "Rough with fine concentric ridges near outer margins",
+      "size": "5–12 cm",
+      "distinctive_markings": "Dark purple patch on interior inner shell margin"
+    },
+    "habitat": {
+      "habitat_type": "Estuaries, coastal bays, and intertidal mudflats",
+      "water_type": "Brackish and marine",
+      "depth_range": "0–15 m",
+      "geographic_distribution": "Western Atlantic ocean (introduced globally)",
+      "typical_environment": "Buried in sand or soft mud below water line"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle. Harvest only from approved non-polluted waters.",
+      "toxicity": "Non-toxic (can filter-feed bacterial toxins in polluted runoffs)",
+      "human_consumption": "Major commercial food species (littlenecks, cherrystones, chowder clams)"
+    },
+    "similar_species": [
+      "Atlantic Surf Clam (Spisula solidissima)",
+      "Venus Clam (Veneridae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Budyong",
+      "scientific_name": "Cassis cornuta",
+      "family": "Cassidae",
+      "genus": "Cassis",
+      "classification": "Gastropod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/helmet shells.png",
+    "appearance": {
+      "shell_shape": "Large, heavy, helmet-shaped with broad flat parietal shield",
+      "shell_color": "Cream exterior; rich orange-pink glossy interior shield",
+      "pattern": "Large knobby blunt projections on shoulder whorls",
+      "surface_texture": "Rough reticulated body with mirror-smooth glossy ventral shield",
+      "size": "20–35 cm",
+      "distinctive_markings": "Massive flat orange-cream enamel parietal shield and dark tooth-like lip bars"
+    },
+    "habitat": {
+      "habitat_type": "Sandy seafloors near coral reefs",
+      "water_type": "Marine",
+      "depth_range": "2–30 m",
+      "geographic_distribution": "Indo-Pacific and Western Atlantic Ocean",
+      "typical_environment": "Shallow sand flats hunting sea urchins at night"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (heavy shell, handle with care)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Eaten in island communities; shells carved into cameos"
+    },
+    "similar_species": [
+      "Queen Helmet (Cassis madagascariensis)",
+      "Cameo Helmet (Cassis tuberosa)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Margin shell",
+      "scientific_name": "Marginellidae spp.",
+      "family": "Marginellidae",
+      "genus": "Marginella",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/margin shells.png",
+    "appearance": {
+      "shell_shape": "Small, oval to teardrop-shaped with short or concealed spire",
+      "shell_color": "Cream, yellow, light grey, or decorated with fine bands",
+      "pattern": "Smooth solid color, fine specks, or subtle spiral stripes",
+      "surface_texture": "Highly polished, smooth porcelain-like glaze",
+      "size": "0.5–3 cm",
+      "distinctive_markings": "Thickened outer lip margin and multi-folded ridges on lower column"
+    },
+    "habitat": {
+      "habitat_type": "Sand flats and coral rubble bottoms",
+      "water_type": "Marine",
+      "depth_range": "0–50 m",
+      "geographic_distribution": "Tropical and warm temperate oceans",
+      "typical_environment": "Burrowing in sublittoral sandy bottoms"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible (too small)",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not consumed due to miniature size"
+    },
+    "similar_species": [
+      "Cowrie (Cypraeidae)",
+      "Olive Shell (Olividae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Buan-buan",
+      "scientific_name": "Naticidae spp.",
+      "family": "Naticidae",
+      "genus": "Neverita / Natica",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/moon snails.png",
+    "appearance": {
+      "shell_shape": "Globular, smooth, rounded shell with short depressed spire",
+      "shell_color": "Tan, beige, cream, or light brownish-grey",
+      "pattern": "Plain uniform tone or faint spiral bands",
+      "surface_texture": "Very smooth and porcelain-like",
+      "size": "3–10 cm",
+      "distinctive_markings": "Large moon-shaped umbilical callosity and wide semi-circular aperture"
+    },
+    "habitat": {
+      "habitat_type": "Intertidal sand flats and muddy shores",
+      "water_type": "Marine",
+      "depth_range": "0–50 m",
+      "geographic_distribution": "Worldwide temperate and tropical waters",
+      "typical_environment": "Plowing beneath wet sand searching for bivalves"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Eaten in various coastal culinary traditions"
+    },
+    "similar_species": [
+      "Bubble Shell (Bullidae)",
+      "Nerite Snail (Neritidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Murex",
+      "scientific_name": "Murex pecten / Muricidae",
+      "family": "Muricidae",
+      "genus": "Murex",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/murex.png",
+    "appearance": {
+      "shell_shape": "Club-shaped body with extremely elongated, spiny siphonal canal",
+      "shell_color": "Cream, beige, or pale brownish-grey",
+      "pattern": "Symmetrical rows of outward-pointing needle spines",
+      "surface_texture": "Highly ornate, spiny, and deeply sculpted",
+      "size": "5–15 cm",
+      "distinctive_markings": "Comb-like rows of long, parallel sharp spines along siphonal channel"
+    },
+    "habitat": {
+      "habitat_type": "Sublittoral sand flats and rocky ocean beds",
+      "water_type": "Marine",
+      "depth_range": "5–100 m",
+      "geographic_distribution": "Indo-Pacific, Mediterranean, and Atlantic Ocean",
+      "typical_environment": "Offshore sandy or muddy sea floor"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "⚠️ Handle with care: extremely sharp spines can puncture skin easily",
+      "toxicity": "Non-toxic (historically used for Tyrian purple dye)",
+      "human_consumption": "Some Murex species are harvested for local culinary dishes"
+    },
+    "similar_species": [
+      "Rock Snail (Thaidinae)",
+      "Spiny Spider Conch (Lambis)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Blue mussel",
+      "scientific_name": "Mytilus edulis",
+      "family": "Mytilidae",
+      "genus": "Mytilus",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/mussel.png",
+    "appearance": {
+      "shell_shape": "Elongated, asymmetrical, wedge-shaped bivalve",
+      "shell_color": "Dark blue, black, or deep purple exterior; silver-blue interior",
+      "pattern": "Fine concentric growth lines radiating from pointed tip",
+      "surface_texture": "Smooth to slightly rough dark periostracum layer",
+      "size": "5–10 cm",
+      "distinctive_markings": "Pointed beak (umbo) at narrow end and tough fibrous attachment threads (byssus)"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal shorelines, piers, and sea walls",
+      "water_type": "Marine and brackish",
+      "depth_range": "0–10 m",
+      "geographic_distribution": "Worldwide temperate and cold ocean waters",
+      "typical_environment": "Clustered tightly in dense beds anchored to hard surfaces"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle. Avoid wild harvesting during dinoflagellate red tide blooms.",
+      "toxicity": "Non-toxic (can filter paralytic shellfish poison during harmful algae blooms)",
+      "human_consumption": "Extensively cultivated and eaten globally"
+    },
+    "similar_species": [
+      "Horse Mussel (Modiolus modiolus)",
+      "Date Mussel (Lithophaga)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Lagang",
+      "scientific_name": "Nautilus pompilius",
+      "family": "Nautilidae",
+      "genus": "Nautilus",
+      "classification": "Cephalopod",
+      "conservation_status": "Vulnerable"
+    },
+    "image_path": "static/images/shells/nautilus pompilius.png",
+    "appearance": {
+      "shell_shape": "Involute, smooth, coiled shell containing multiple gas-filled chambers",
+      "shell_color": "Ivory white base with bold reddish-orange bands",
+      "pattern": "Wavy tiger-stripe pattern fanning from center",
+      "surface_texture": "Smooth exterior enamel; iridescent nacreous interior",
+      "size": "15–25 cm",
+      "distinctive_markings": "Black central umbilical patch and internal chamber septa"
+    },
+    "habitat": {
+      "habitat_type": "Deep coral reef drop-offs",
+      "water_type": "Marine",
+      "depth_range": "100–700 m",
+      "geographic_distribution": "Indo-Pacific Ocean (Philippines, Indonesia, Australia)",
+      "typical_environment": "Deep tropical ocean reef slopes"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle shell",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Strictly restricted under international conservation treaties"
+    },
+    "similar_species": [
+      "Nautilus stenomphalus",
+      "Allonautilus scrobiculatus"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Dalinasan",
+      "scientific_name": "Olividae spp.",
+      "family": "Olividae",
+      "genus": "Oliva",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/olive shells.png",
+    "appearance": {
+      "shell_shape": "Cylindrical, smooth, bullet-shaped with low short spire",
+      "shell_color": "Cream, tan, brownish-grey, or white",
+      "pattern": "Glossy zig-zag lines, chevron netting, or mottled speckles",
+      "surface_texture": "Glass-like high polish enamel surface",
+      "size": "3–8 cm",
+      "distinctive_markings": "Long narrow aperture running length of body whorl with notched base"
+    },
+    "habitat": {
+      "habitat_type": "Intertidal sand flats and shallow coastal waters",
+      "water_type": "Marine",
+      "depth_range": "0–30 m",
+      "geographic_distribution": "Tropical and subtropical warm seas",
+      "typical_environment": "Burrowed just under wet sand surface"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible / Rarely eaten",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not used as a commercial food source"
+    },
+    "similar_species": [
+      "Cone Snail (Conidae — distinct flat spire and venomous)",
+      "Margin Shell (Marginellidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Talaba",
+      "scientific_name": "Ostreidae spp.",
+      "family": "Ostreidae",
+      "genus": "Crassostrea / Ostrea",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/oyster.png",
+    "appearance": {
+      "shell_shape": "Irregular, asymmetrical, heavily calcified bivalve",
+      "shell_color": "Dull chalky grey or brown exterior; white interior",
+      "pattern": "Concentric layered rough flaking ridges",
+      "surface_texture": "Extremely rough, scaly, and sharp-edged",
+      "size": "8–18 cm",
+      "distinctive_markings": "Lower valve cemented to substrate; dark purple muscle scar on interior wall"
+    },
+    "habitat": {
+      "habitat_type": "Estuaries, shallow bays, intertidal reefs",
+      "water_type": "Brackish and marine",
+      "depth_range": "0–10 m",
+      "geographic_distribution": "Worldwide coastal environments",
+      "typical_environment": "Attached to rocks or forming dense intertidal oyster reefs"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (edges are razor-sharp). Ensure clean water harvest if raw.",
+      "toxicity": "Non-toxic (may carry marine bacteria like Vibrio if raw)",
+      "human_consumption": "Highly prized global commercial seafood"
+    },
+    "similar_species": [
+      "Pearl Oyster (Pteriidae)",
+      "Thorny Oyster (Spondylidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Tipay",
+      "scientific_name": "Pinctada margaritifera",
+      "family": "Pteriidae",
+      "genus": "Pinctada",
+      "classification": "Bivalve",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/pearl oyster.png",
+    "appearance": {
+      "shell_shape": "Flattened, compressed circular to square shell with straight hinge line",
+      "shell_color": "Dark greyish-green exterior; iridescent silver-black interior",
+      "pattern": "Scaly concentric growth lamellae on outer shell",
+      "surface_texture": "Rough scaly exterior; brilliant mother-of-pearl nacre interior",
+      "size": "10–25 cm",
+      "distinctive_markings": "Thick iridescent interior nacre capable of generating natural pearls"
+    },
+    "habitat": {
+      "habitat_type": "Tropical coral reefs and rocky sea beds",
+      "water_type": "Marine",
+      "depth_range": "1–40 m",
+      "geographic_distribution": "Indo-Pacific and tropical ocean regions",
+      "typical_environment": "Anchored to hard substrate in clear warm waters"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Adductor muscle is eaten; primarily cultured for pearl production"
+    },
+    "similar_species": [
+      "True Oyster (Ostreidae)",
+      "Winged Oyster (Pteria)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "jackknife clam",
+      "scientific_name": "Ensis directus",
+      "family": "Solenidae",
+      "genus": "Ensis",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/razor clams.png",
+    "appearance": {
+      "shell_shape": "Elongated, narrow, straight or slightly curved rectangular shell",
+      "shell_color": "Yellowish-brown or olive-green coating over white shell",
+      "pattern": "Parallel longitudinal growth lines along shell length",
+      "surface_texture": "Smooth and glossy periostracum",
+      "size": "10–20 cm",
+      "distinctive_markings": "Ends remain gaping open at both top and bottom margins"
+    },
+    "habitat": {
+      "habitat_type": "Intertidal and shallow sandy mudflats",
+      "water_type": "Marine and brackish",
+      "depth_range": "0–15 m",
+      "geographic_distribution": "Atlantic coasts of North America and Europe",
+      "typical_environment": "Burrowed vertically in wet coastal sand"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (thin broken shells can be razor-sharp)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Harvested for seafood dishes globally"
+    },
+    "similar_species": [
+      "Pacific Razor Clam (Siliqua patula)",
+      "Stout Tagelus (Tagelus plebeius)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Ganga",
+      "scientific_name": "Lambis lambis",
+      "family": "Strombidae",
+      "genus": "Lambis",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/spider conch.png",
+    "appearance": {
+      "shell_shape": "Heavy oval body with long finger-like curved spines on outer lip",
+      "shell_color": "Cream/mottled brown exterior; smooth pinkish-cream inner lip",
+      "pattern": "Brown blotched pattern with flared finger projections",
+      "surface_texture": "Rough knobby exterior; mirror-smooth high-gloss aperture",
+      "size": "15–25 cm",
+      "distinctive_markings": "Six long finger-like hollow digits projecting outward from margin"
+    },
+    "habitat": {
+      "habitat_type": "Tropical coral reefs and seagrass beds",
+      "water_type": "Marine",
+      "depth_range": "1–20 m",
+      "geographic_distribution": "Indo-West Pacific region",
+      "typical_environment": "Sandy flats and reef rubble zones"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle (watch out for blunt spine ends)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Widely cooked and eaten in Southeast Asian coastal communities"
+    },
+    "similar_species": [
+      "Scorpion Conch (Lambis scorpius)",
+      "Queen Conch (Lobatus gigas)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "surf clam",
+      "scientific_name": "Spisula solidissima",
+      "family": "Mactridae",
+      "genus": "Spisula",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/surf clams.png",
+    "appearance": {
+      "shell_shape": "Large, thick, triangular to broad oval bivalve shell",
+      "shell_color": "Off-white to light yellowish-brown",
+      "pattern": "Concentric fine growth lines radiating from hinge",
+      "surface_texture": "Smooth to moderately ridged surface",
+      "size": "10–20 cm",
+      "distinctive_markings": "Large spoon-shaped pit (chondrophore) in internal hinge structure"
+    },
+    "habitat": {
+      "habitat_type": "High-energy surf zones and open sandy seafloors",
+      "water_type": "Marine",
+      "depth_range": "0–60 m",
+      "geographic_distribution": "Western Atlantic Ocean",
+      "typical_environment": "Buried in offshore clean sandy sediments"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Major source of commercial fried clam strips and canned chowders"
+    },
+    "similar_species": [
+      "Hard Clam (Mercenaria mercenaria)",
+      "Butter Clam (Saxidomus gigantea)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Textile cone",
+      "scientific_name": "Conus textile",
+      "family": "Conidae",
+      "genus": "Conus",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/textile cone.png",
+    "appearance": {
+      "shell_shape": "Inverted cone shape with sharp, low spire",
+      "shell_color": "Yellowish-brown background with dark brown intricate network lines",
+      "pattern": "Interlocking woven textile design with white triangular tent marks",
+      "surface_texture": "Smooth and glossy surface",
+      "size": "4–10 cm",
+      "distinctive_markings": "Overlapping brown fine netting with white tent-like triangular patches"
+    },
+    "habitat": {
+      "habitat_type": "Shallow tropical coral reefs and sand beds",
+      "water_type": "Marine",
+      "depth_range": "0–20 m",
+      "geographic_distribution": "Indo-Pacific Ocean",
+      "typical_environment": "Hidden under coral rubble and sand during daytime"
+    },
+    "edibility_and_safety": {
+      "edibility": "NOT EDIBLE / HIGHLY VENOMOUS",
+      "safety_warning": "🔴 DANGER: Potentially lethal to humans! Fires venomous harpoon teeth capable of causing respiratory paralysis.",
+      "toxicity": "Highly toxic conotoxins (Venomous)",
+      "human_consumption": "Strictly non-edible. DO NOT handle living specimens!"
+    },
+    "similar_species": [
+      "Marble Cone (Conus marmoreus)",
+      "Courtly Cone (Conus aulicus)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Tiger cowrie",
+      "scientific_name": "Cypraea tigris",
+      "family": "Cypraeidae",
+      "genus": "Cypraea",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/tiger cowrie.png",
+    "appearance": {
+      "shell_shape": "Large, heavy, dome-shaped egg-like shell with flat base",
+      "shell_color": "White/cream base with dense dark brown and black spots",
+      "pattern": "Spotted leopard/tiger-like pattern with red-brown undertones",
+      "surface_texture": "High-gloss porcelain enamel",
+      "size": "7–15 cm",
+      "distinctive_markings": "Heavy circular black/brown spots and orange-tinged central line along crest"
+    },
+    "habitat": {
+      "habitat_type": "Shallow tropical coral reefs",
+      "water_type": "Marine",
+      "depth_range": "0–30 m",
+      "geographic_distribution": "Indo-Pacific region",
+      "typical_environment": "Hiding under overhangs and live coral heads"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible / Rarely eaten",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not a commercial food; collected for decorative art and shells"
+    },
+    "similar_species": [
+      "Panther Cowrie (Cypraea pantherina)",
+      "Map Cowrie (Leporicypraea mappa)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "True tulip",
+      "scientific_name": "Fasciolaria tulipa",
+      "family": "Fasciolariidae",
+      "genus": "Fasciolaria",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/tulip shells.png",
+    "appearance": {
+      "shell_shape": "Spindle-shaped (fusiform) with smooth rounded body whorls",
+      "shell_color": "Reddish-brown, pinkish-tan, or greyish-brown",
+      "pattern": "Dark brown spiral line bands encircling body whorls",
+      "surface_texture": "Smooth surface with fine axial growth lines",
+      "size": "10–20 cm",
+      "distinctive_markings": "Sleek flower-bud shape with fine dark spiral pinstripes"
+    },
+    "habitat": {
+      "habitat_type": "Seagrass beds, sand flats, and oyster bars",
+      "water_type": "Marine",
+      "depth_range": "0–10 m",
+      "geographic_distribution": "Western Atlantic, Gulf of Mexico, Caribbean",
+      "typical_environment": "Crawling across sandy seagrass meadows"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Prepared in Caribbean soups and seafood stews"
+    },
+    "similar_species": [
+      "Banded Tulip (Cinctura hunteria)",
+      "Florida Horse Conch (Triplofusus papillosus)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Lumban/Piyong-piyong",
+      "scientific_name": "Turbinidae spp.",
+      "family": "Turbinidae",
+      "genus": "Turbo",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/turban snails.png",
+    "appearance": {
+      "shell_shape": "Turbinate (top-shaped/turban-like) heavy spiral shell",
+      "shell_color": "Green, brown, cream, or mottled red and grey",
+      "pattern": "Coarse spiral ridges or bumpy knobby beads",
+      "surface_texture": "Rough exterior; rich mother-of-pearl interior",
+      "size": "5–10 cm",
+      "distinctive_markings": "Thick, dome-shaped calcareous door (cat's eye operculum) sealing shell opening"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal shorelines and coral reefs",
+      "water_type": "Marine",
+      "depth_range": "0–20 m",
+      "geographic_distribution": "Worldwide tropical and warm temperate seas",
+      "typical_environment": "Clinging tightly to algae-covered rocks"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Popular seafood species boiled or grilled in coastal cuisine"
+    },
+    "similar_species": [
+      "Top Shell (Trochidae)",
+      "Nerite Snail (Neritidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Octagonal tusk shell",
+      "scientific_name": "Dentalium octangulatum",
+      "family": "Dentaliidae",
+      "genus": "Dentalium",
+      "classification": "Scaphopod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/tusk shell.png",
+    "appearance": {
+      "shell_shape": "Slender, hollow, curved tubular cylinder (shaped like a miniature elephant tusk)",
+      "shell_color": "White to ivory off-white",
+      "pattern": "Longitudinal fine ribbed ridges running end-to-end",
+      "surface_texture": "Smooth to delicately grooved",
+      "size": "2–8 cm",
+      "distinctive_markings": "Openings at both ends (large main mouth and tiny apical tail pore)"
+    },
+    "habitat": {
+      "habitat_type": "Sublittoral mud and sand ocean floors",
+      "water_type": "Marine",
+      "depth_range": "5–200 m",
+      "geographic_distribution": "Worldwide oceans",
+      "typical_environment": "Buried vertically head-first in sea bed sediments"
+    },
+    "edibility_and_safety": {
+      "edibility": "Inedible / Not consumed",
+      "safety_warning": "🟢 Safe to handle (fragile structure)",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Not used for food; historically strung into Indigenous shell money (wampum)"
+    },
+    "similar_species": [
+      "Gadilida Tusk Shell (Gadilidae)",
+      "Worm Snail (Vermetidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Halaan",
+      "scientific_name": "Veneridae spp.",
+      "family": "Veneridae",
+      "genus": "Pitar / Chione / Venus",
+      "classification": "Bivalve",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/venus clams.png",
+    "appearance": {
+      "shell_shape": "Thick, symmetrical, heart-shaped or oval bivalve",
+      "shell_color": "Cream, beige, white, or decorated with brown markings",
+      "pattern": "Reticulated cross-hatched or concentric raised ribs",
+      "surface_texture": "Smooth to strongly sculpted and ridged",
+      "size": "3–10 cm",
+      "distinctive_markings": "Heart-shaped depressed lunule near hinge margin"
+    },
+    "habitat": {
+      "habitat_type": "Intertidal and shallow sublittoral sand/mud beds",
+      "water_type": "Marine",
+      "depth_range": "0–40 m",
+      "geographic_distribution": "Worldwide oceans",
+      "typical_environment": "Burrowed shallowly beneath sandy sea floors"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Widely harvested and farmed for culinary use globally"
+    },
+    "similar_species": [
+      "Hard Clam (Mercenaria mercenaria)",
+      "Cockle (Cardiidae)"
+    ]
+  },
+  
+  
+  {
+    "basic_identification": {
+      "common_name": "Common whelk",
+      "scientific_name": "Buccinum undatum",
+      "family": "Buccinidae",
+      "genus": "Buccinum",
+      "classification": "Gastropod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/whelks.png",
+    "appearance": {
+      "shell_shape": "Robust spiral shell with large body whorl and deep siphonal notch",
+      "shell_color": "Off-white, greyish-yellow, or light reddish-brown",
+      "pattern": "Wavy spiral ridges and undulating vertical ribs",
+      "surface_texture": "Rough with thin fibrous protective coating (periostracum)",
+      "size": "8–15 cm",
+      "distinctive_markings": "Broad oval aperture with a wide, notched lower siphonal channel"
+    },
+    "habitat": {
+      "habitat_type": "Temperate and cold coastal mud, sand, and gravel seafloors",
+      "water_type": "Marine",
+      "depth_range": "0–100 m",
+      "geographic_distribution": "North Atlantic Ocean (European and North American coasts)",
+      "typical_environment": "Crawling along gravel ocean floors scavenging"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Safe to handle",
+      "toxicity": "Non-toxic",
+      "human_consumption": "Commercially fished and popular in European and Asian seafood markets"
+    },
+    "similar_species": [
+      "Tulip Shell (Fasciolariidae)",
+      "Dog Whelk (Nucella lapillus)"
+    ]
+  },
+
+  {
+    "basic_identification": {
+      "common_name": "Caribbean chiton",
+      "scientific_name": "Chiton tuberculatus",
+      "family": "Chitonidae",
+      "genus": "Chiton",
+      "classification": "Polyplacophora",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Chiton_tuberculatus.png",
+    "appearance": {
+      "shell_shape": "Elongated oval body with eight overlapping dorsal shell plates",
+      "shell_color": "Dull grayish-green to greenish-brown",
+      "pattern": "Strong longitudinal ribs with occasional dark-brown markings on the dorsal ridge",
+      "surface_texture": "Ribbed shell plates with a spicule-covered girdle",
+      "size": "Up to approximately 7.6 cm",
+      "distinctive_markings": "Eight plates with strong longitudinal ribs and a girdle showing alternating whitish, green, and black zones"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal and shallow subtidal shores",
+      "water_type": "Marine",
+      "depth_range": "Intertidal to shallow subtidal",
+      "geographic_distribution": "Western Central Atlantic, including the Caribbean region",
+      "typical_environment": "Under rocks and in spray zones of rocky shores"
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly documented as a food species",
+      "safety_warning": "🟢 Generally safe to handle; shell plates and girdle may have rough or sharp structures",
+      "toxicity": "No established species-specific toxicity reported",
+      "human_consumption": "No reliable evidence of widespread commercial human consumption"
+    },
+    "similar_species": [
+      "Acanthopleura granulata",
+      "Acanthopleura spinosa"
+    ]
+  },
+  
+  {
+    "basic_identification": {
+      "common_name": "fuzzy chiton",
+      "scientific_name": "Acanthopleura granulata",
+      "family": "Chitonidae",
+      "genus": "Acanthopleura",
+      "classification": "Polyplacophora",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Acanthopleura_granulata.png",
+    "appearance": {
+      "shell_shape": "Broad oval body with eight thick overlapping shell plates",
+      "shell_color": "Grayish, brownish, or greenish with darker markings",
+      "pattern": "Granulated shell plates with a heavily spiny girdle",
+      "surface_texture": "Rough and heavily granulated plates with a dense spiny girdle",
+      "size": "Up to approximately 10 cm",
+      "distinctive_markings": "Dense spiny girdle and heavily eroded or granulated shell plates"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal and spray-zone shores",
+      "water_type": "Marine",
+      "depth_range": "Primarily intertidal",
+      "geographic_distribution": "Western Central Atlantic, including southern Florida, Mexico, Central America, and the West Indies",
+      "typical_environment": "Open rocky shores where it strongly attaches to rocks"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible in some local communities",
+      "safety_warning": "🟢 Generally safe to handle; the rough girdle and shell plates may irritate or scratch the skin",
+      "toxicity": "No established species-specific venom or inherent toxicity reported",
+      "human_consumption": "The muscular foot has been consumed locally in parts of its range"
+    },
+    "similar_species": [
+      "Chiton tuberculatus",
+      "Acanthopleura spinosa",
+      "Acanthopleura gemmata"
+    ]
+  },
+  
+  {
+    "basic_identification": {
+      "common_name": "Gem chiton",
+      "scientific_name": "Acanthopleura gemmata",
+      "family": "Chitonidae",
+      "genus": "Acanthopleura",
+      "classification": "Polyplacophora",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Acanthopleura_gemmata.png",
+    "appearance": {
+      "shell_shape": "Large oval body with eight overlapping dorsal shell plates",
+      "shell_color": "Brownish to dark-colored plates with contrasting girdle markings",
+      "pattern": "Dimpled or granular plate margins with dark bands",
+      "surface_texture": "Rough girdle with calcareous spicules and textured shell plates",
+      "size": "Up to approximately 7 cm",
+      "distinctive_markings": "Brown girdle, eight overlapping plates, and conspicuous surface spicules"
+    },
+    "habitat": {
+      "habitat_type": "Tropical rocky shores and coral reef environments",
+      "water_type": "Marine",
+      "depth_range": "Littoral and shallow coastal waters",
+      "geographic_distribution": "Indo-Pacific",
+      "typical_environment": "Rocks and cliffs associated with coral reef and littoral environments"
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly documented as a food species",
+      "safety_warning": "🟢 Generally safe to handle; rough plates and spicules can be abrasive",
+      "toxicity": "No established species-specific toxicity reported",
+      "human_consumption": "No reliable evidence of widespread commercial human consumption"
+    },
+    "similar_species": [
+      "Acanthopleura spinosa",
+      "Acanthopleura granulata",
+      "Liolophura japonica"
+    ]
+  },
+  
+  {
+    "basic_identification": {
+      "common_name": "Spiny chiton",
+      "scientific_name": "Acanthopleura spinosa",
+      "family": "Chitonidae",
+      "genus": "Acanthopleura",
+      "classification": "Polyplacophora",
+      "conservation_status": "Least Concern according to Western Australian Museum assessment"
+    },
+    "image_path": "static/images/shells/Acanthopleura_spinosa.png",
+    "appearance": {
+      "shell_shape": "Large oval body with eight embedded overlapping shell plates",
+      "shell_color": "Dark brown to nearly black",
+      "pattern": "Generally dark body with contrasting shell plate and girdle textures",
+      "surface_texture": "Girdle covered with thick black spines",
+      "size": "Up to approximately 9–10 cm",
+      "distinctive_markings": "Long, thick black spines of variable length embedded in the girdle"
+    },
+    "habitat": {
+      "habitat_type": "High intertidal rocky shores and exposed reefs",
+      "water_type": "Marine",
+      "depth_range": "Intertidal",
+      "geographic_distribution": "Indo-West Pacific",
+      "typical_environment": "Limestone shorelines, rocky reefs, exposed hard surfaces, and rock crevices"
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly documented as a food species",
+      "safety_warning": "🟡 Handle carefully because the girdle contains thick spines",
+      "toxicity": "No established species-specific toxicity reported",
+      "human_consumption": "Documented as a commercial fishery species in some areas, but species-specific food use varies geographically"
+    },
+    "similar_species": [
+      "Acanthopleura gemmata",
+      "Acanthopleura granulata",
+      "Liolophura japonica"
+    ]
+  },
+  
+  {
+    "basic_identification": {
+      "common_name": "Japanese chiton",
+      "scientific_name": "Liolophura japonica",
+      "family": "Chitonidae",
+      "genus": "Liolophura",
+      "classification": "Polyplacophora",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Liolophura_japonica.png",
+    "appearance": {
+      "shell_shape": "Elongated oval body with eight overlapping dorsal shell plates",
+      "shell_color": "Grayish-white and dark brown patterned",
+      "pattern": "Alternating light and dark patterns across the plates and girdle",
+      "surface_texture": "Rough shell plates surrounded by a spiny girdle",
+      "size": "Approximately 4.4–5 cm",
+      "distinctive_markings": "Eight dorsal plates surrounded by a girdle bearing small spines"
+    },
+    "habitat": {
+      "habitat_type": "Exposed rocky intertidal shores",
+      "water_type": "Marine",
+      "depth_range": "Intertidal",
+      "geographic_distribution": "Western Pacific, from Japan south to Vietnam",
+      "typical_environment": "Exposed rocky shores and areas associated with mussel beds"
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly documented as a food species",
+      "safety_warning": "🟢 Generally safe to handle; shell and girdle can be rough",
+      "toxicity": "No established species-specific toxicity reported",
+      "human_consumption": "No reliable evidence of widespread commercial human consumption"
+    },
+    "similar_species": [
+      "Acanthopleura spinosa",
+      "Acanthopleura gemmata",
+      "Acanthopleura japonica (older name)"
+    ]
+  },
+  
+  {
+    "basic_identification": {
+      "common_name": "Elegant chiton",
+      "scientific_name": "Ischnochiton comptus",
+      "family": "Ischnochitonidae",
+      "genus": "Ischnochiton",
+      "classification": "Polyplacophora",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Ischnochiton_comptus.png",
+    "appearance": {
+      "shell_shape": "Small to medium elongated oval chiton with eight overlapping plates",
+      "shell_color": "Variable, generally pale to brownish or patterned",
+      "pattern": "Longitudinally textured shell plates",
+      "surface_texture": "Ribbed and sculptured shell plates with a flexible girdle",
+      "size": "Approximately 3 cm",
+      "distinctive_markings": "Eight relatively narrow shell plates forming an elongated body"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal and neritic coastal habitats",
+      "water_type": "Marine",
+      "depth_range": "Intertidal to shallow coastal waters",
+      "geographic_distribution": "Northwestern Pacific, including Japan, China, Taiwan, and Korea",
+      "typical_environment": "Rocky substrates in intertidal and shallow marine environments"
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly documented as a food species",
+      "safety_warning": "🟢 Generally safe to handle",
+      "toxicity": "No established species-specific toxicity reported",
+      "human_consumption": "No reliable evidence of widespread commercial human consumption"
+    },
+    "similar_species": [
+      "Tonicella lineata",
+      "Other Ischnochiton species"
+    ]
+  },
+  
+  {
+    "basic_identification": {
+      "common_name": "Neglected chiton",
+      "scientific_name": "Onithochiton neglectus",
+      "family": "Chitonidae",
+      "genus": "Onithochiton",
+      "classification": "Polyplacophora",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Onithochiton_neglectus.png",
+    "appearance": {
+      "shell_shape": "Medium-sized elongated oval body with eight overlapping shell plates",
+      "shell_color": "Yellow, green, brown, or reddish-green",
+      "pattern": "Conspicuous tree-ring or growth-ring patterns across the plates",
+      "surface_texture": "Generally smooth and shiny shell plates with a broad fleshy girdle",
+      "size": "Approximately 4–5 cm",
+      "distinctive_markings": "Expanding growth-ring patterns on the shell plates, often with wedge-shaped markings"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal shore",
+      "water_type": "Marine",
+      "depth_range": "Low intertidal",
+      "geographic_distribution": "New Zealand, including North Island, South Island, Stewart Island, Snares, and Chatham Islands",
+      "typical_environment": "Under rocks and around kelp holdfasts, particularly Durvillaea holdfasts"
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly documented as a food species",
+      "safety_warning": "🟢 Generally safe to handle",
+      "toxicity": "No established species-specific toxicity reported",
+      "human_consumption": "No reliable evidence of widespread commercial human consumption"
+    },
+    "similar_species": [
+      "Onithochiton quercinus",
+      "Liolophura japonica",
+      "Other Onithochiton species"
+    ]
+  },
+  
+  {
+    "basic_identification": {
+      "common_name": "Gumboot chiton",
+      "scientific_name": "Cryptochiton stelleri",
+      "family": "Acanthochitonidae",
+      "genus": "Cryptochiton",
+      "classification": "Polyplacophora",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/quiz/images/Cryptochiton_stelleri.png",
+    "appearance": {
+      "shell_shape": "Very large elongated oval chiton with eight shell plates largely hidden by the girdle",
+      "shell_color": "Brick-red to reddish-brown girdle with pale shell plates underneath",
+      "pattern": "Shell plates are almost completely covered by the fleshy girdle",
+      "surface_texture": "Thick leathery girdle that can completely obscure the shell plates",
+      "size": "Up to approximately 30–33 cm",
+      "distinctive_markings": "Extremely large size and a thick girdle that almost completely covers the eight plates"
+    },
+    "habitat": {
+      "habitat_type": "Rocky low-intertidal and shallow subtidal habitats",
+      "water_type": "Marine",
+      "depth_range": "Low tide to approximately 18–20 m",
+      "geographic_distribution": "North Pacific, from Alaska and the western coast of North America to Japan",
+      "typical_environment": "Rocky shores, kelp beds, and shallow subtidal rocky habitats"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible and historically consumed by some Indigenous peoples of the Pacific Coast",
+      "safety_warning": "🟢 Generally safe to handle; its large, rough body and shell plates should still be handled carefully",
+      "toxicity": "No established inherent species-specific toxicity reported",
+      "human_consumption": "Historically used as food by Indigenous peoples of the Pacific Coast"
+    },
+    "similar_species": [
+      "Mopalia muscosa",
+      "Katharina tunicata",
+      "Tonicella lineata"
+    ]
+  },
+  
+  {
+    "basic_identification": {
+      "common_name": "Black Katy chiton",
+      "scientific_name": "Katharina tunicata",
+      "family": "Mopaliidae",
+      "genus": "Katharina",
+      "classification": "Polyplacophora",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Katharina_tunicata.png",
+    "appearance": {
+      "shell_shape": "Elongated oval chiton with eight dorsal plates mostly covered by the girdle",
+      "shell_color": "Whitish shell plates surrounded by a black girdle",
+      "pattern": "Diamond-shaped exposed area along the center of the back",
+      "surface_texture": "Thick black leathery girdle; plates may be covered by algae",
+      "size": "Approximately 7 cm on average",
+      "distinctive_markings": "Black girdle almost completely covering the eight whitish shell plates"
+    },
+    "habitat": {
+      "habitat_type": "Rocky intertidal shore",
+      "water_type": "Marine",
+      "depth_range": "Middle to upper intertidal",
+      "geographic_distribution": "Pacific Northwest of North America",
+      "typical_environment": "Rocky shores exposed to strong wave action, often near mussel beds"
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly documented as a food species",
+      "safety_warning": "🟢 Generally safe to handle",
+      "toxicity": "No established species-specific toxicity reported",
+      "human_consumption": "No reliable evidence of widespread commercial human consumption"
+    },
+    "similar_species": [
+      "Cryptochiton stelleri",
+      "Mopalia muscosa",
+      "Tonicella lineata"
+    ]
+  },
+  
+  {
+    "basic_identification": {
+      "common_name": "Lined chiton",
+      "scientific_name": "Tonicella lineata",
+      "family": "Mopaliidae",
+      "genus": "Tonicella",
+      "classification": "Polyplacophora",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Tonicella_lineata.png",
+    "appearance": {
+      "shell_shape": "Small elongated oval body with eight smooth overlapping shell plates",
+      "shell_color": "Brown, red, orange, pink, blue, or other bright background colors",
+      "pattern": "Distinctive straight, curved, or zigzag dark and light lines across the plates",
+      "surface_texture": "Smooth shiny shell plates with a smooth leathery girdle",
+      "size": "Up to approximately 5 cm",
+      "distinctive_markings": "Colorful lines across all eight shell plates, often pink, orange, white, blue, or dark"
+    },
+    "habitat": {
+      "habitat_type": "Low intertidal and shallow subtidal rocky shores",
+      "water_type": "Marine",
+      "depth_range": "Low intertidal to shallow subtidal",
+      "geographic_distribution": "North Pacific, from the Aleutian Islands to California, with records from northern Japan and the Sea of Okhotsk",
+      "typical_environment": "Rocks covered with coralline algae and occasionally urchin burrows"
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly documented as a food species",
+      "safety_warning": "🟢 Generally safe to handle",
+      "toxicity": "No established species-specific toxicity reported",
+      "human_consumption": "No reliable evidence of widespread commercial human consumption"
+    },
+    "similar_species": [
+      "Tonicella undocaerulea",
+      "Tonicella lokii",
+      "Tonicella venusta"
+    ]
+  },
+  
+  {
+    "basic_identification": {
+      "common_name": "Mossy chiton",
+      "scientific_name": "Mopalia muscosa",
+      "family": "Mopaliidae",
+      "genus": "Mopalia",
+      "classification": "Polyplacophora",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Mopalia_muscosa.png",
+    "appearance": {
+      "shell_shape": "Elongated oval body with eight dorsal shell plates",
+      "shell_color": "Gray, brown, greenish, or occasionally blue or orange",
+      "pattern": "Ribbed and beaded shell plates often obscured by algae and other organisms",
+      "surface_texture": "Girdle covered with coarse hair-like bristles and often encrusted with algae or other organisms",
+      "size": "Up to approximately 8.9–9 cm",
+      "distinctive_markings": "Coarse bristles on the girdle and a moss-like appearance caused by algae and other organisms growing on its surface"
+    },
+    "habitat": {
+      "habitat_type": "Middle to lower intertidal rocky shores",
+      "water_type": "Marine",
+      "depth_range": "Intertidal to approximately 5 m",
+      "geographic_distribution": "Northeastern Pacific, from Alaska and British Columbia to Baja California",
+      "typical_environment": "Rocky shores with low to moderate surf and some estuarine habitats"
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly documented as a food species",
+      "safety_warning": "🟢 Generally safe to handle; coarse girdle bristles may feel rough",
+      "toxicity": "No established species-specific toxicity reported",
+      "human_consumption": "No reliable evidence of widespread commercial human consumption"
+    },
+    "similar_species": [
+      "Katharina tunicata",
+      "Cryptochiton stelleri",
+      "Other Mopalia species"
+    ]
+  },
+
+
+{
+    "basic_identification": {
+      "common_name": "Prickly octopus",
+      "scientific_name": "Abdopus aculeatus",
+      "family": "Octopodidae",
+      "genus": "Abdopus",
+      "classification": "Cephalopod",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Abdopus_aculeatus.png",
+    "appearance": {
+      "shell_shape": "No external shell; soft-bodied octopus with a rounded mantle and eight arms",
+      "shell_color": "Brown, gray, or reddish-brown with the ability to rapidly change coloration",
+      "pattern": "Mottled and irregular patterns that help it blend with algae, rocks, and coastal substrates",
+      "surface_texture": "Soft skin with numerous chromatophores and small papillae",
+      "size": "Approximately 10–15 cm mantle length",
+      "distinctive_markings": "Small body, relatively short arms, and strong camouflage associated with shallow rocky and algal habitats"
+    },
+    "habitat": {
+      "habitat_type": "Shallow coastal rocky and reef environments",
+      "water_type": "Marine",
+      "depth_range": "Intertidal to shallow subtidal waters",
+      "geographic_distribution": "Indo-West Pacific",
+      "typical_environment": "Rocky shores, coral rubble, algae-covered substrates, and shallow reef areas"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible; locally harvested",
+      "safety_warning": "🟢 Generally safe to handle; avoid the beak and suckers when handling live specimens",
+      "toxicity": "No established species-specific venom or inherent toxicity reported",
+      "human_consumption": "Locally used as food in parts of its geographic range"
+    },
+    "similar_species": [
+      "Octopus cyanea",
+      "Octopus vulgaris",
+      "Amphioctopus marginatus"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Coconut octopus",
+      "scientific_name": "Amphioctopus marginatus",
+      "family": "Octopodidae",
+      "genus": "Amphioctopus",
+      "classification": "Cephalopod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/Amphioctopus_marginatus.png",
+    "appearance": {
+      "shell_shape": "No external shell; compact soft-bodied octopus with eight arms",
+      "shell_color": "Dark brown to purple with lighter areas around the suckers",
+      "pattern": "Dark longitudinal stripes and angular purple-brown reticulated patterns",
+      "surface_texture": "Soft body with numerous papillae and chromatophores",
+      "size": "Up to approximately 30 cm total length",
+      "distinctive_markings": "Dark longitudinal stripes on the dorsal arms and contrasting pink to white suckers"
+    },
+    "habitat": {
+      "habitat_type": "Coastal benthic environments",
+      "water_type": "Marine",
+      "depth_range": "0–190 m",
+      "geographic_distribution": "Indo-West Pacific",
+      "typical_environment": "Sandy and muddy coastal bottoms, shallow reefs, seagrass areas, and rubble habitats"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; avoid the beak when handling",
+      "toxicity": "No established species-specific venom or inherent toxicity reported",
+      "human_consumption": "Commercially harvested and used as seafood"
+    },
+    "similar_species": [
+      "Abdopus aculeatus",
+      "Octopus cyanea",
+      "Octopus vulgaris"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Giant cuttlefish",
+      "scientific_name": "Ascarosepion apama",
+      "family": "Sepiidae",
+      "genus": "Ascarosepion",
+      "classification": "Cephalopod",
+      "conservation_status": "Near Threatened"
+    },
+    "image_path": "static/images/shells/Ascarosepion_apama.png",
+    "appearance": {
+      "shell_shape": "No external shell; possesses an internal cuttlebone enclosed within a broad oval mantle",
+      "shell_color": "Highly variable, ranging from pale gray and brown to reddish and mottled patterns",
+      "pattern": "Rapidly changing bands, spots, stripes, and mottled patterns produced by chromatophores",
+      "surface_texture": "Soft muscular mantle with the ability to change both color and skin texture",
+      "size": "Up to approximately 50 cm mantle length; exceptionally large individuals can exceed 10 kg",
+      "distinctive_markings": "Very large size and dramatic color-changing displays, particularly during courtship"
+    },
+    "habitat": {
+      "habitat_type": "Temperate coastal waters and rocky reef habitats",
+      "water_type": "Marine",
+      "depth_range": "Shallow coastal waters to approximately 100 m",
+      "geographic_distribution": "Southern and western Australia",
+      "typical_environment": "Rocky reefs, seagrass beds, sandy bottoms, and coastal breeding grounds"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; the beak can cause injury",
+      "toxicity": "No established inherent toxicity reported",
+      "human_consumption": "Consumed as seafood in Australia and other regions"
+    },
+    "similar_species": [
+      "Sepia latimanus",
+      "Sepia pharaonis",
+      "Sepiella inermis"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Longfin inshore",
+      "scientific_name": "Doryteuthis pealeii",
+      "family": "Loliginidae",
+      "genus": "Doryteuthis",
+      "classification": "Cephalopod",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Doryteuthis_pealeii.png",
+    "appearance": {
+      "shell_shape": "No external shell; elongated streamlined squid with an internal chitinous pen",
+      "shell_color": "Translucent pale gray, pinkish, or reddish-brown",
+      "pattern": "Mottled coloration that can rapidly change through chromatophore activity",
+      "surface_texture": "Smooth muscular mantle with paired fins extending along much of the mantle",
+      "size": "Up to approximately 50 cm mantle length in males",
+      "distinctive_markings": "Long fins extending along much of the mantle and an elongated streamlined body"
+    },
+    "habitat": {
+      "habitat_type": "Coastal and continental shelf waters",
+      "water_type": "Marine",
+      "depth_range": "0–400 m",
+      "geographic_distribution": "Western Atlantic",
+      "typical_environment": "Continental shelf waters, coastal areas, sandy and muddy bottoms, and open water"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; the beak can be sharp",
+      "toxicity": "No established inherent toxicity reported",
+      "human_consumption": "Important commercial and recreational fishery species"
+    },
+    "similar_species": [
+      "Loligo vulgaris",
+      "Uroteuthis edulis",
+      "Sepioteuthis lessoniana"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Hawaiian bobtail",
+      "scientific_name": "Euprymna scolopes",
+      "family": "Sepiolidae",
+      "genus": "Euprymna",
+      "classification": "Cephalopod",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Euprymna_scolopes.png",
+    "appearance": {
+      "shell_shape": "No external shell; small rounded bobtail squid with an internal shell-like gladius",
+      "shell_color": "Brown, gray, or reddish-brown with mottled patterns",
+      "pattern": "Speckled and mottled camouflage pattern",
+      "surface_texture": "Soft rounded mantle with small fins and chromatophore-covered skin",
+      "size": "Up to approximately 3 cm mantle length",
+      "distinctive_markings": "Small rounded body and a characteristic bioluminescent organ beneath the mantle"
+    },
+    "habitat": {
+      "habitat_type": "Shallow coastal sandy and muddy habitats",
+      "water_type": "Marine",
+      "depth_range": "Shallow coastal waters",
+      "geographic_distribution": "Hawaiian Islands and surrounding central Pacific waters",
+      "typical_environment": "Sandy bottoms, shallow bays, and coastal environments where it buries itself during the day"
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly consumed as a food species",
+      "safety_warning": "🟢 Generally safe to handle with appropriate care",
+      "toxicity": "No established inherent toxicity reported",
+      "human_consumption": "Not an important commercial seafood species"
+    },
+    "similar_species": [
+      "Euprymna berryi",
+      "Euprymna tasmanica",
+      "Other Euprymna species"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "European squid",
+      "scientific_name": "Loligo vulgaris",
+      "family": "Loliginidae",
+      "genus": "Loligo",
+      "classification": "Cephalopod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/Loligo_vulgaris.png",
+    "appearance": {
+      "shell_shape": "No external shell; elongated cylindrical mantle with an internal pen",
+      "shell_color": "Pale gray, translucent white, pinkish, or reddish-brown",
+      "pattern": "Mottled or speckled patterns that change according to behavior and surroundings",
+      "surface_texture": "Smooth muscular mantle with triangular lateral fins",
+      "size": "Up to approximately 40 cm mantle length",
+      "distinctive_markings": "Long cylindrical mantle, paired fins, eight arms, and two longer feeding tentacles"
+    },
+    "habitat": {
+      "habitat_type": "Coastal and continental shelf waters",
+      "water_type": "Marine",
+      "depth_range": "Nearshore to approximately 500 m",
+      "geographic_distribution": "Eastern Atlantic and Mediterranean Sea",
+      "typical_environment": "Coastal waters, sandy bottoms, rocky areas, and continental shelf habitats"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; the beak and suckers can cause minor injury",
+      "toxicity": "No established inherent toxicity reported",
+      "human_consumption": "Widely harvested and consumed as seafood"
+    },
+    "similar_species": [
+      "Doryteuthis pealeii",
+      "Uroteuthis edulis",
+      "Sepioteuthis lessoniana"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Pugita/Day octopus",
+      "scientific_name": "Octopus cyanea",
+      "family": "Octopodidae",
+      "genus": "Octopus",
+      "classification": "Cephalopod",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Octopus_cyanea.png",
+    "appearance": {
+      "shell_shape": "No external shell; muscular soft body with eight long arms",
+      "shell_color": "Brown, gray, blue-green, or mottled depending on surroundings",
+      "pattern": "Complex mottled patterns with rapid changes in color and contrast",
+      "surface_texture": "Soft skin with numerous chromatophores and papillae",
+      "size": "Up to approximately 1 m total length",
+      "distinctive_markings": "Large body, long arms, prominent eyes, and strong ability to change color and texture"
+    },
+    "habitat": {
+      "habitat_type": "Tropical shallow reefs and coastal habitats",
+      "water_type": "Marine",
+      "depth_range": "Intertidal to shallow subtidal waters",
+      "geographic_distribution": "Indo-Pacific",
+      "typical_environment": "Coral reefs, rocky areas, reef flats, lagoons, and shallow coastal waters"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; avoid the beak when handling",
+      "toxicity": "No established species-specific venom or inherent toxicity reported",
+      "human_consumption": "Locally harvested and consumed as seafood"
+    },
+    "similar_species": [
+      "Octopus vulgaris",
+      "Abdopus aculeatus",
+      "Amphioctopus marginatus"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Pugita/Common octopus",
+      "scientific_name": "Octopus vulgaris",
+      "family": "Octopodidae",
+      "genus": "Octopus",
+      "classification": "Cephalopod",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Octopus_vulgaris.png",
+    "appearance": {
+      "shell_shape": "No external shell; rounded mantle with eight arms lined with suckers",
+      "shell_color": "Gray, brown, reddish, or mottled depending on environmental conditions",
+      "pattern": "Variable mottled and spotted patterns produced by chromatophores",
+      "surface_texture": "Soft skin that can become smooth or textured through papillae",
+      "size": "Approximately 30–90 cm total length",
+      "distinctive_markings": "Eight arms, large head and eyes, and highly variable camouflage coloration"
+    },
+    "habitat": {
+      "habitat_type": "Coastal benthic environments",
+      "water_type": "Marine",
+      "depth_range": "Surface to approximately 100–150 m",
+      "geographic_distribution": "Atlantic, Mediterranean, Indian Ocean, and parts of the Pacific; taxonomy of regional populations is complex",
+      "typical_environment": "Rocky reefs, coastal waters, caves, crevices, and continental shelf habitats"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; the beak can cause injury",
+      "toxicity": "No established inherent toxicity reported",
+      "human_consumption": "Widely harvested and consumed as seafood"
+    },
+    "similar_species": [
+      "Octopus cyanea",
+      "Abdopus aculeatus",
+      "Amphioctopus marginatus"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Bagulan",
+      "scientific_name": "Sepia latimanus",
+      "family": "Sepiidae",
+      "genus": "Sepia",
+      "classification": "Cephalopod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/Sepia_latimanus.png",
+    "appearance": {
+      "shell_shape": "No external shell; broad flattened mantle enclosing an internal cuttlebone",
+      "shell_color": "Cream, beige, brown, reddish, and greenish tones with highly variable markings",
+      "pattern": "Bold bands, spots, and rapidly changing chromatophore patterns",
+      "surface_texture": "Broad muscular mantle with lateral fins and textured skin capable of changing appearance",
+      "size": "Up to approximately 50 cm mantle length",
+      "distinctive_markings": "Very broad mantle, colorful lateral patterns, and prominent fin margins"
+    },
+    "habitat": {
+      "habitat_type": "Tropical coral reef and coastal habitats",
+      "water_type": "Marine",
+      "depth_range": "Shallow coastal waters to approximately 30 m",
+      "geographic_distribution": "Indo-West Pacific",
+      "typical_environment": "Coral reefs, sandy reef flats, seagrass beds, and shallow coastal waters"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; the beak can cause injury",
+      "toxicity": "No established inherent toxicity reported",
+      "human_consumption": "Harvested and consumed as seafood in parts of its range"
+    },
+    "similar_species": [
+      "Sepia pharaonis",
+      "Ascarosepion apama",
+      "Sepiella inermis"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Pharaoh cuttlefish",
+      "scientific_name": "Sepia pharaonis",
+      "family": "Sepiidae",
+      "genus": "Sepia",
+      "classification": "Cephalopod",
+      "conservation_status": "Least Concern"
+    },
+    "image_path": "static/images/shells/Sepia_pharaonis.png",
+    "appearance": {
+      "shell_shape": "No external shell; broad oval mantle containing an internal cuttlebone",
+      "shell_color": "Generally pale cream, gray, brown, or reddish-brown",
+      "pattern": "Mottled white-and-brown patterns with rapidly changing spots and bands",
+      "surface_texture": "Smooth muscular mantle with chromatophores capable of changing both color and skin texture",
+      "size": "Up to approximately 80 cm mantle length",
+      "distinctive_markings": "Large size, broad mantle, and strong white-and-brown mottled coloration"
+    },
+    "habitat": {
+      "habitat_type": "Shallow tropical and subtropical coastal waters",
+      "water_type": "Marine",
+      "depth_range": "0–130 m",
+      "geographic_distribution": "Indian Ocean and Indo-West Pacific, extending from East Africa to Australia and Japan",
+      "typical_environment": "Sandy bottoms, coastal reefs, bays, and continental shelf waters"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; the beak can cause injury",
+      "toxicity": "No established inherent toxicity reported",
+      "human_consumption": "Important commercial and artisanal seafood species"
+    },
+    "similar_species": [
+      "Sepia latimanus",
+      "Ascarosepion apama",
+      "Sepiella inermis"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Spineless cuttlefish",
+      "scientific_name": "Sepiella inermis",
+      "family": "Sepiidae",
+      "genus": "Sepiella",
+      "classification": "Cephalopod",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Sepiella_inermis.png",
+    "appearance": {
+      "shell_shape": "No external shell; rounded mantle containing a distinctive internal cuttlebone",
+      "shell_color": "Pale gray, cream, brown, or reddish-brown",
+      "pattern": "Mottled and spotted patterns that vary with behavior and surroundings",
+      "surface_texture": "Smooth muscular mantle with lateral fins",
+      "size": "Up to approximately 12.5 cm mantle length",
+      "distinctive_markings": "Small rounded cuttlefish with a relatively smooth mantle and characteristic fin structure"
+    },
+    "habitat": {
+      "habitat_type": "Coastal continental shelf environments",
+      "water_type": "Marine",
+      "depth_range": "Shelf waters",
+      "geographic_distribution": "Indian Ocean and Indo-West Pacific",
+      "typical_environment": "Shallow coastal waters, sandy and muddy bottoms, and continental shelf habitats"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; the beak can cause injury",
+      "toxicity": "No established inherent toxicity reported",
+      "human_consumption": "Harvested as seafood in parts of its geographic range"
+    },
+    "similar_species": [
+      "Sepia pharaonis",
+      "Sepia latimanus",
+      "Ascarosepion apama"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Pusit/Nokos",
+      "scientific_name": "Sepioteuthis lessoniana",
+      "family": "Loliginidae",
+      "genus": "Sepioteuthis",
+      "classification": "Cephalopod",
+      "conservation_status": "Not Evaluated by IUCN"
+    },
+    "image_path": "static/images/shells/Sepioteuthis_lessoniana.png",
+    "appearance": {
+      "shell_shape": "No external shell; broad oval mantle with an internal pen",
+      "shell_color": "Translucent gray, brown, reddish, or pinkish",
+      "pattern": "Mottled patterns and rapidly changing spots and bands",
+      "surface_texture": "Smooth muscular mantle with large fins extending along most of the mantle",
+      "size": "Up to approximately 33 cm mantle length",
+      "distinctive_markings": "Large oval fins extending along most of the mantle, giving it a cuttlefish-like appearance"
+    },
+    "habitat": {
+      "habitat_type": "Warm shallow coastal waters",
+      "water_type": "Marine",
+      "depth_range": "0–100 m",
+      "geographic_distribution": "Indo-West Pacific and tropical coastal waters, with a broad range extending into adjacent regions",
+      "typical_environment": "Coral reefs, seagrass beds, sandy bottoms, rocky shorelines, and coastal waters"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; the beak and suckers can cause minor injury",
+      "toxicity": "No established inherent toxicity reported",
+      "human_consumption": "Widely harvested and consumed as seafood"
+    },
+    "similar_species": [
+      "Doryteuthis pealeii",
+      "Loligo vulgaris",
+      "Uroteuthis edulis"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Bolpen-bolpen",
+      "scientific_name": "Uroteuthis edulis",
+      "family": "Loliginidae",
+      "genus": "Uroteuthis",
+      "classification": "Cephalopod",
+      "conservation_status": "Data Deficient"
+    },
+    "image_path": "static/images/shells/Uroteuthis_edulis.png",
+    "appearance": {
+      "shell_shape": "No external shell; elongated cylindrical mantle containing an internal pen",
+      "shell_color": "Translucent white, gray, pinkish, or reddish-brown",
+      "pattern": "Mottled coloration that changes through chromatophore activity",
+      "surface_texture": "Smooth muscular mantle with triangular fins",
+      "size": "Up to approximately 50 cm mantle length",
+      "distinctive_markings": "Elongated body with pointed posterior mantle and broad triangular fins"
+    },
+    "habitat": {
+      "habitat_type": "Continental shelf and coastal marine waters",
+      "water_type": "Marine",
+      "depth_range": "30–170 m",
+      "geographic_distribution": "Indo-Pacific",
+      "typical_environment": "Continental shelf waters, sandy coastal bottoms, and offshore spawning grounds"
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible",
+      "safety_warning": "🟢 Generally safe to handle; the beak can cause injury",
+      "toxicity": "No established inherent toxicity reported",
+      "human_consumption": "Commercially harvested and widely used as seafood"
+    },
+    "similar_species": [
+      "Loligo vulgaris",
+      "Doryteuthis pealeii",
+      "Sepioteuthis lessoniana"
+    ]
+  },
+
+
+  {
+    "basic_identification": {
+      "common_name": "Bakan/Litob",
+      "scientific_name": "Anadara antiquata",
+      "family": "Arcidae",
+      "genus": "Anadara",
+      "classification": "Bivalve",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Anadara_antiquata.png",
+    "appearance": {
+      "shell_shape": "Solid, inequilateral, obliquely ovate and elongated shell with a pronounced posterior extension.",
+      "shell_color": "Greyish white shell with darker grey areas; covered by a dark brown periostracum.",
+      "pattern": "Numerous prominent radial ribs, typically around 35–44 ribs per valve.",
+      "surface_texture": "Coarse and velvety periostracum with strongly raised radial ribs and crenulated shell margins.",
+      "size": "Up to approximately 10.5 cm shell length.",
+      "distinctive_markings": "Strong radial ribbing, inflated forward-positioned umbones, dark brown outer covering, and strongly crenulated margins."
+    },
+    "habitat": {
+      "habitat_type": "Benthic coastal habitat",
+      "water_type": "Marine",
+      "depth_range": "0–25 m",
+      "geographic_distribution": "Indo-Pacific, from eastern Africa to Japan, Australia, eastern Polynesia and Hawaii.",
+      "typical_environment": "Intertidal and shallow subtidal sandy or muddy bottoms, including seagrass beds."
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible and commercially harvested in some regions.",
+      "safety_warning": "Eat only shellfish obtained from regulated and approved sources because bivalves can accumulate marine biotoxins and pollutants.",
+      "toxicity": "Not considered inherently toxic; contamination and harmful algal blooms can create food-safety risks.",
+      "human_consumption": "Used as food and harvested by coastal fisheries."
+    },
+    "similar_species": [
+      "Tegillarca granosa",
+      "Anadara antiquata",
+      "Anadara granosa"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Bay scallop",
+      "scientific_name": "Argopecten irradians",
+      "family": "Pectinidae",
+      "genus": "Argopecten",
+      "classification": "Bivalve",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Argopecten_irradians.png",
+    "appearance": {
+      "shell_shape": "Rounded fan-shaped scallop shell with convex valves and wing-like projections near the hinge.",
+      "shell_color": "Lower valve usually light or whitish; upper valve commonly dark brown to dark grey.",
+      "pattern": "Dark markings may occur across the upper valve, with strong radial ribbing.",
+      "surface_texture": "Approximately 19–21 strong, squarish radial ribs.",
+      "size": "Up to approximately 7.5 cm shell height.",
+      "distinctive_markings": "Fan-shaped outline, strong square-shaped radial ribs, paired hinge wings, and contrasting upper and lower valves."
+    },
+    "habitat": {
+      "habitat_type": "Shallow coastal and seagrass habitat",
+      "water_type": "Marine",
+      "depth_range": "0–20 m, usually shallower than 10 m",
+      "geographic_distribution": "Western Atlantic, including the eastern and southeastern United States and adjacent Atlantic waters.",
+      "typical_environment": "Sandy bottoms, eelgrass beds, and other shallow seagrass habitats."
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible and commercially harvested/aquacultured.",
+      "safety_warning": "Eat only bay scallops from approved sources because shellfish can accumulate marine biotoxins and pollutants.",
+      "toxicity": "Not inherently toxic; contamination or harmful algal blooms can make scallops unsafe to consume.",
+      "human_consumption": "Commonly harvested for its edible adductor muscle."
+    },
+    "similar_species": [
+      "Pecten maximus",
+      "Placopecten magellanicus",
+      "Argopecten irradians"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Common cockle",
+      "scientific_name": "Cerastoderma edule",
+      "family": "Cardiidae",
+      "genus": "Cerastoderma",
+      "classification": "Bivalve",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Cerastoderma_edule.png",
+    "appearance": {
+      "shell_shape": "Thick, rounded to heart-shaped shell with strongly convex valves.",
+      "shell_color": "Usually whitish, cream, yellowish or light brown, often with darker external markings.",
+      "pattern": "Numerous strong radial ribs extending from the umbo toward the shell margin.",
+      "surface_texture": "Strongly ribbed surface with visible growth lines.",
+      "size": "Up to approximately 5.6 cm shell length.",
+      "distinctive_markings": "Heart-shaped profile and pronounced radial ribs characteristic of cockles."
+    },
+    "habitat": {
+      "habitat_type": "Intertidal and shallow coastal sediment",
+      "water_type": "Marine and brackish",
+      "depth_range": "0–5 m",
+      "geographic_distribution": "Eastern Atlantic, Mediterranean Sea and Black Sea, from northern Europe to Senegal and the Mediterranean region.",
+      "typical_environment": "Buried in sandy, muddy-sand and muddy sediments, including seagrass meadows and estuarine areas."
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible and commercially harvested.",
+      "safety_warning": "Consume only cockles harvested from approved areas because bivalves can accumulate marine biotoxins and pollutants.",
+      "toxicity": "Not inherently toxic, but contaminated shellfish may contain harmful algal toxins or pathogens.",
+      "human_consumption": "Widely used as food and harvested in commercial and recreational fisheries."
+    },
+    "similar_species": [
+      "Cerastoderma glaucum",
+      "Acanthocardia echinata",
+      "Tegillarca granosa"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Sand gaper",
+      "scientific_name": "Mya arenaria",
+      "family": "Myidae",
+      "genus": "Mya",
+      "classification": "Bivalve",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Mya_arenaria.png",
+    "appearance": {
+      "shell_shape": "Elongated, oval to somewhat triangular shell with relatively thin and fragile valves.",
+      "shell_color": "Usually white, cream or greyish beneath a yellowish-brown to darker periostracum.",
+      "pattern": "Fine concentric growth lines with relatively little radial sculpture.",
+      "surface_texture": "Mostly smooth with fine concentric growth markings.",
+      "size": "Up to approximately 10 cm shell length.",
+      "distinctive_markings": "Thin elongated shell, unequal valves, smooth surface and long siphons adapted for burrowing."
+    },
+    "habitat": {
+      "habitat_type": "Intertidal and shallow subtidal sediment",
+      "water_type": "Marine and brackish",
+      "depth_range": "0–192 m, usually 0–25 m",
+      "geographic_distribution": "Northwest Atlantic from Newfoundland and St. Pierre and Miquelon to North Carolina; introduced to parts of Europe and the eastern Pacific.",
+      "typical_environment": "Burrows deeply in sand, mud, sandy mud and sandy gravel, particularly in estuaries and tidal flats."
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible and commercially harvested.",
+      "safety_warning": "Consume only softshell clams from approved and monitored harvesting areas because they can accumulate marine biotoxins and pollutants.",
+      "toxicity": "Not inherently toxic; contaminated individuals can carry harmful microorganisms or marine biotoxins.",
+      "human_consumption": "Commonly harvested as a food shellfish."
+    },
+    "similar_species": [
+      "Mya truncata",
+      "Ensis directus",
+      "Spisula solidissima"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Great Atlantic scallop",
+      "scientific_name": "Pecten maximus",
+      "family": "Pectinidae",
+      "genus": "Pecten",
+      "classification": "Bivalve",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Pecten_maximus.png",
+    "appearance": {
+      "shell_shape": "Large, fan-shaped scallop shell with rounded margins and prominent hinge ears.",
+      "shell_color": "Upper valve commonly reddish, pinkish, brown or orange; lower valve generally pale or cream.",
+      "pattern": "Radial sculpture and variable bands or blotches may occur on the shell surface.",
+      "surface_texture": "Fan-shaped shell with radial ribs and growth lines; generally smoother than heavily ribbed scallop species.",
+      "size": "Up to approximately 17 cm shell diameter; commonly 10–15 cm.",
+      "distinctive_markings": "Large fan-shaped outline, prominent hinge ears and contrasting upper and lower valves."
+    },
+    "habitat": {
+      "habitat_type": "Continental shelf and coastal seabed",
+      "water_type": "Marine",
+      "depth_range": "0–125 m",
+      "geographic_distribution": "Eastern Atlantic and Mediterranean Sea.",
+      "typical_environment": "Benthic seabeds where it can swim using rapid opening and closing of its valves; suspension feeder."
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible and commercially important scallop.",
+      "safety_warning": "Consume only scallops obtained from regulated sources because shellfish can accumulate marine biotoxins and pollutants.",
+      "toxicity": "Not inherently toxic, but contamination and harmful algal blooms may make scallops unsafe.",
+      "human_consumption": "Widely consumed as a food species, particularly its adductor muscle."
+    },
+    "similar_species": [
+      "Placopecten magellanicus",
+      "Argopecten irradians",
+      "Pecten jacobaeus"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "American sea scallop",
+      "scientific_name": "Placopecten magellanicus",
+      "family": "Pectinidae",
+      "genus": "Placopecten",
+      "classification": "Bivalve",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Placopecten_magellanicus.png",
+    "appearance": {
+      "shell_shape": "Large, nearly circular fan-shaped shell with two valves and prominent hinge ears.",
+      "shell_color": "Upper valve commonly reddish-brown, pink, orange or darker shades; lower valve generally white or cream.",
+      "pattern": "Usually shows fine radial sculpture and variable coloration across the upper valve.",
+      "surface_texture": "Relatively smooth compared with strongly ribbed scallops, with fine growth lines.",
+      "size": "Up to approximately 20 cm shell diameter.",
+      "distinctive_markings": "Large circular fan-shaped shell, broad hinge ears and relatively smooth shell surface."
+    },
+    "habitat": {
+      "habitat_type": "Continental shelf benthic habitat",
+      "water_type": "Marine",
+      "depth_range": "0–300 m",
+      "geographic_distribution": "Northwest Atlantic, from the Strait of Belle Isle in Canada southward to Georges Bank and Cape Hatteras, North Carolina.",
+      "typical_environment": "Large epibenthic populations on continental-shelf sediments; semi-mobile and capable of swimming."
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible and commercially important seafood species.",
+      "safety_warning": "Consume only scallops from regulated harvesting areas because shellfish may accumulate marine biotoxins and contaminants.",
+      "toxicity": "Not inherently toxic; food safety depends on harvesting conditions and proper handling.",
+      "human_consumption": "The adductor muscle is widely harvested and consumed."
+    },
+    "similar_species": [
+      "Pecten maximus",
+      "Argopecten irradians",
+      "Placopecten magellanicus"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Bakalan/Litob",
+      "scientific_name": "Tegillarca granosa",
+      "family": "Arcidae",
+      "genus": "Tegillarca",
+      "classification": "Bivalve",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Tegillarca_granosa.png",
+    "appearance": {
+      "shell_shape": "Thick, solid, strongly inflated and broadly ovate shell with nearly equal valves.",
+      "shell_color": "White beneath a yellowish-brown to brown periostracum.",
+      "pattern": "Approximately 15–20 prominent radial ribs with regularly arranged nodules.",
+      "surface_texture": "Strongly rugose radial ribs with nodules and crenulated internal shell margins.",
+      "size": "Up to approximately 9 cm shell length; commonly around 6 cm.",
+      "distinctive_markings": "Strongly inflated shell, prominent umbones, roughly 18 nodular radial ribs and strongly crenulated inner margins."
+    },
+    "habitat": {
+      "habitat_type": "Intertidal and shallow estuarine habitat",
+      "water_type": "Marine and brackish",
+      "depth_range": "0–20 m",
+      "geographic_distribution": "Indo-Pacific, from eastern Africa and India through Southeast Asia, Japan, Australia and Polynesia.",
+      "typical_environment": "Muddy bottoms of protected bays, estuaries and mangrove areas; commonly found in silty low-salinity intertidal habitats."
+    },
+    "edibility_and_safety": {
+      "edibility": "Edible and commercially important food shellfish.",
+      "safety_warning": "Blood cockles should only be consumed when legally harvested and properly processed because bivalves can accumulate pathogens, marine biotoxins and pollutants.",
+      "toxicity": "Not inherently toxic, but raw or contaminated cockles can present significant food-safety risks.",
+      "human_consumption": "Widely harvested and cultured for human consumption throughout parts of the Indo-Pacific."
+    },
+    "similar_species": [
+      "Anadara antiquata",
+      "Anadara granosa",
+      "Anadara inaequivalvis"
+    ]
+  }, 
+
+
+  {
+    "basic_identification": {
+      "common_name": "Agile tusk",
+      "scientific_name": "Antalis agilis",
+      "family": "Dentaliidae",
+      "genus": "Antalis",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Antalis_agilis.png",
+    "appearance": {
+      "shell_shape": "Slender, elongated tusk-shaped shell that is gently curved.",
+      "shell_color": "Usually white to off-white.",
+      "pattern": "Fine longitudinal lines or striations extending along the shell.",
+      "surface_texture": "Relatively smooth with fine longitudinal sculpture.",
+      "size": "Approximately 3–6 cm in length.",
+      "distinctive_markings": "Thin, curved shell with very fine longitudinal striations that are more visible toward the aperture."
+    },
+    "habitat": {
+      "habitat_type": "Deep benthic marine habitat",
+      "water_type": "Marine",
+      "depth_range": "Approximately 55–1250 m",
+      "geographic_distribution": "North Atlantic and northeastern Atlantic, including waters from Norway to the Mediterranean and the Azores.",
+      "typical_environment": "Soft sandy or muddy seabeds where it burrows into the sediment."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly harvested for human food.",
+      "safety_warning": "Not considered a conventional food shellfish; avoid collecting or consuming unidentified scaphopods.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No significant commercial human consumption."
+    },
+    "similar_species": [
+      "Antalis dentalis",
+      "Antalis entalis",
+      "Antalis vulgaris"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Tooth tusk",
+      "scientific_name": "Antalis dentalis",
+      "family": "Dentaliidae",
+      "genus": "Antalis",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Antalis_dentalis.png",
+    "appearance": {
+      "shell_shape": "Small, moderately curved and slender tusk-shaped shell.",
+      "shell_color": "Translucent white to pale cream.",
+      "pattern": "Fine longitudinal striations that become more numerous toward the wider opening.",
+      "surface_texture": "Smooth to finely striated.",
+      "size": "Approximately 0.5–3 cm in length.",
+      "distinctive_markings": "Translucent curved shell with clearly visible fine longitudinal striations."
+    },
+    "habitat": {
+      "habitat_type": "Shallow benthic marine habitat",
+      "water_type": "Marine",
+      "depth_range": "Approximately 0–300 m.",
+      "geographic_distribution": "Eastern Atlantic and Mediterranean region, particularly from southern Portugal through the Mediterranean.",
+      "typical_environment": "Muddy and sandy seabeds where the animal remains partially buried."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly consumed.",
+      "safety_warning": "Not a recognized commercial food shellfish; unidentified scaphopods should not be collected for consumption.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No significant commercial human consumption."
+    },
+    "similar_species": [
+      "Antalis agilis",
+      "Antalis entalis",
+      "Antalis vulgaris"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Common tusk",
+      "scientific_name": "Antalis entalis",
+      "family": "Dentaliidae",
+      "genus": "Antalis",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Antalis_entalis.png",
+    "appearance": {
+      "shell_shape": "Solid, elongated and moderately curved tusk-shaped shell.",
+      "shell_color": "Whitish to cream, often opaque.",
+      "pattern": "Very fine longitudinal striations that are often difficult to see near the apex.",
+      "surface_texture": "Smooth to finely striated, with oblique growth markings.",
+      "size": "Approximately 2.5–5 cm in length.",
+      "distinctive_markings": "Relatively thick shell, V-shaped notch near the apex, and an oval anterior opening."
+    },
+    "habitat": {
+      "habitat_type": "Deep benthic marine habitat",
+      "water_type": "Marine",
+      "depth_range": "Approximately 5–1400 m; commonly found below 70 m.",
+      "geographic_distribution": "North Atlantic and northeastern Atlantic, from Arctic and northern European waters through Morocco; also reported from North American Atlantic waters and the Mediterranean.",
+      "typical_environment": "Coarse sand and other soft-bottom sediments, where it lives buried in the seabed."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly consumed.",
+      "safety_warning": "Not a recognized commercial food shellfish; avoid consuming unidentified scaphopods.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No significant commercial human consumption."
+    },
+    "similar_species": [
+      "Antalis dentalis",
+      "Antalis agilis",
+      "Antalis vulgaris"
+    ]
+  },
+  { 
+    "basic_identification": {
+      "common_name": "Western tusk",
+      "scientific_name": "Antalis occidentalis",
+      "family": "Dentaliidae",
+      "genus": "Antalis",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Antalis_occidentalis.png",
+    "appearance": {
+      "shell_shape": "Long, narrow and slightly curved tusk-shaped shell.",
+      "shell_color": "White to pale cream.",
+      "pattern": "Longitudinal ribbing and fine growth lines.",
+      "surface_texture": "Finely ribbed with longitudinal sculpture.",
+      "size": "Approximately 3–6 cm in length.",
+      "distinctive_markings": "Slender curved profile with longitudinal ribs and a gradually widening aperture."
+    },
+    "habitat": {
+      "habitat_type": "Benthic continental-shelf habitat",
+      "water_type": "Marine",
+      "depth_range": "Generally shallow to moderately deep continental-shelf waters.",
+      "geographic_distribution": "Western Atlantic, particularly the Atlantic coast of North America.",
+      "typical_environment": "Soft sandy or muddy seabeds where it burrows."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly consumed.",
+      "safety_warning": "Not recognized as a commercial food species.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No significant commercial human consumption."
+    },
+    "similar_species": [
+      "Antalis entalis",
+      "Antalis dentalis",
+      "Antalis agilis"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Common tusk",
+      "scientific_name": "Antalis vulgaris",
+      "family": "Dentaliidae",
+      "genus": "Antalis",
+      "classification": "Scaphopod  ",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Antalis_vulgaris.png",
+    "appearance": {
+      "shell_shape": "Small, slender and curved elephant-tusk-shaped shell.",
+      "shell_color": "Opaque white to dirty white.",
+      "pattern": "Closely spaced longitudinal striations, particularly toward the posterior portion.",
+      "surface_texture": "Fine longitudinally striated surface.",
+      "size": "Approximately 3–6 cm in length.",
+      "distinctive_markings": "Classic tusk-like curved profile, opaque white coloration and closely spaced longitudinal striations."
+    },
+    "habitat": {
+      "habitat_type": "Benthic coastal to deep marine habitat",
+      "water_type": "Marine",
+      "depth_range": "Approximately 5–1000 m.",
+      "geographic_distribution": "Eastern Atlantic and Mediterranean, including Europe and North Africa.",
+      "typical_environment": "Sandy and soft-bottom marine habitats where it remains partially buried."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly consumed.",
+      "safety_warning": "Not recognized as a conventional food shellfish.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No significant commercial human consumption."
+    },
+    "similar_species": [
+      "Antalis dentalis",
+      "Antalis entalis",
+      "Antalis agilis"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Threaded tusk",
+      "scientific_name": "Cadulus teliger",
+      "family": "Gadilidae",
+      "genus": "Cadulus",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Cadulus_teliger.png",
+    "appearance": {
+      "shell_shape": "Very small, slender, tubular tusk-shaped shell.",
+      "shell_color": "Generally white to translucent white.",
+      "pattern": "Usually lacks strong external patterning.",
+      "surface_texture": "Smooth and delicate.",
+      "size": "Approximately 5 mm long and about 0.7 mm in diameter.",
+      "distinctive_markings": "Extremely small and slender shell compared with most Dentaliida."
+    },
+    "habitat": {
+      "habitat_type": "Deep benthic marine habitat",
+      "water_type": "Marine",
+      "depth_range": "Approximately 0–939 m; type specimen collected at about 175 m.",
+      "geographic_distribution": "Endemic to New Zealand waters, including the Three Kings, North, South, Stewart, Auckland, Campbell and Chatham Islands.",
+      "typical_environment": "Soft seabed sediments where the small shell is buried in the substrate."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not consumed as food.",
+      "safety_warning": "Extremely small species with no recognized food use.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No known commercial human consumption."
+    },
+    "similar_species": [
+      "Cadulus spp.",
+      "Siphonodentalium colubridens",
+      "Other Gadilidae"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Aura tusk",
+      "scientific_name": "Fissidentalium aurae",
+      "family": "Dentaliidae",
+      "genus": "Fissidentalium",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Fissidentalium_aurae.png",
+    "appearance": {
+      "shell_shape": "Large, robust, elongated and slightly curved tusk-shaped shell.",
+      "shell_color": "White.",
+      "pattern": "Numerous regular and fine longitudinal ribs.",
+      "surface_texture": "Strongly and regularly longitudinally ribbed.",
+      "size": "Large species; specimens exceeding 60 mm in length have been documented.",
+      "distinctive_markings": "Robust white shell with numerous fine regular ribs; some specimens have a sea anemone attached to the concave surface."
+    },
+    "habitat": {
+      "habitat_type": "Deep-sea benthic habitat",
+      "water_type": "Marine",
+      "depth_range": "Deep abyssal marine environment.",
+      "geographic_distribution": "Known from the Labrador Sea in the North Atlantic.",
+      "typical_environment": "Deep soft-bottom seafloor; documented in association with actinostolid sea anemones."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not consumed as food.",
+      "safety_warning": "Deep-sea scaphopod with no recognized food use.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No known commercial human consumption."
+    },
+    "similar_species": [
+      "Fissidentalium candidum",
+      "Fissidentalium capillosum",
+      "Fissidentalium formosum"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "White tusk",
+      "scientific_name": "Fissidentalium candidum",
+      "family": "Dentaliidae",
+      "genus": "Fissidentalium",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Fissidentalium_candidum.png",
+    "appearance": {
+      "shell_shape": "Elongated, moderately curved and relatively robust tusk-shaped shell.",
+      "shell_color": "White to creamy white.",
+      "pattern": "Longitudinal ribs or fine striations.",
+      "surface_texture": "Finely ribbed surface with longitudinal sculpture.",
+      "size": "Medium-sized tusk shell; size varies among populations.",
+      "distinctive_markings": "Pale white robust shell with numerous longitudinal ribs."
+    },
+    "habitat": {
+      "habitat_type": "Benthic marine habitat",
+      "water_type": "Marine",
+      "depth_range": "Generally subtidal to deep marine environments.",
+      "geographic_distribution": "Reported from the North Atlantic and European marine region.",
+      "typical_environment": "Soft-bottom seabeds where the animal burrows into sediment."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly consumed.",
+      "safety_warning": "Not recognized as a food species.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No significant commercial human consumption."
+    },
+    "similar_species": [
+      "Fissidentalium aurae",
+      "Fissidentalium capillosum",
+      "Pictodentalium vernedei"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Beautiful tusk",
+      "scientific_name": "Pictodentalium formosum",
+      "family": "Dentaliidae",
+      "genus": "Pictodentalium",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Fissidentalium_formosum.png",
+    "appearance": {
+      "shell_shape": "Slender, elongated and curved tusk-shaped shell.",
+      "shell_color": "White to cream with variable markings.",
+      "pattern": "Longitudinal ribs and characteristic external coloration or patterning.",
+      "surface_texture": "Longitudinally sculptured with fine ribs.",
+      "size": "Small to medium-sized scaphopod.",
+      "distinctive_markings": "Ornamented longitudinally sculptured shell with distinctive patterned appearance."
+    },
+    "habitat": {
+      "habitat_type": "Benthic marine habitat",
+      "water_type": "Marine",
+      "depth_range": "Subtidal to deeper marine waters.",
+      "geographic_distribution": "Indo-West Pacific, including waters around Japan, China and Taiwan.",
+      "typical_environment": "Soft marine sediments where it lives partially buried."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly consumed.",
+      "safety_warning": "Not recognized as a food shellfish.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No known commercial human consumption."
+    },
+    "similar_species": [
+      "Pictodentalium vernedei",
+      "Fissidentalium candidum",
+      "Fissidentalium aurae"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Vernede's tusk",
+      "scientific_name": "Pictodentalium vernedei",
+      "family": "Dentaliidae",
+      "genus": "Pictodentalium",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Fissidentalium_vernedei.png",
+    "appearance": {
+      "shell_shape": "Elongated, curved and moderately slender tusk-shaped shell.",
+      "shell_color": "Usually pale white to cream.",
+      "pattern": "Longitudinal sculpture with fine ribs and variable surface markings.",
+      "surface_texture": "Finely ribbed and longitudinally sculptured.",
+      "size": "Small to medium-sized tusk shell.",
+      "distinctive_markings": "Slender curved shell with longitudinal ribbing and characteristic sculpturing."
+    },
+    "habitat": {
+      "habitat_type": "Benthic marine habitat",
+      "water_type": "Marine",
+      "depth_range": "Subtidal to deeper marine environments.",
+      "geographic_distribution": "Western Pacific, including Japan, China and Taiwan.",
+      "typical_environment": "Soft marine sediment; some specimens have been documented in association with marine cnidarians."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly consumed.",
+      "safety_warning": "Not recognized as a commercial food species.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No known commercial human consumption."
+    },
+    "similar_species": [
+      "Pictodentalium formosum",
+      "Fissidentalium candidum",
+      "Fissidentalium aurae"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Ivory tusk",
+      "scientific_name": "Graptacme eborea",
+      "family": "Dentaliidae",
+      "genus": "Graptacme",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Graptacme_eborea.png",
+    "appearance": {
+      "shell_shape": "Long, slender and gently curved tusk-shaped shell.",
+      "shell_color": "Ivory white to pale cream.",
+      "pattern": "Fine longitudinal lines and growth markings.",
+      "surface_texture": "Generally smooth to finely longitudinally striated.",
+      "size": "Small to medium-sized tusk shell.",
+      "distinctive_markings": "Characteristic ivory-colored elongated shell giving the species its common name."
+    },
+    "habitat": {
+      "habitat_type": "Benthic coastal and continental-shelf habitat",
+      "water_type": "Marine",
+      "depth_range": "Shallow to moderately deep marine waters.",
+      "geographic_distribution": "Western Atlantic, including the Gulf of Mexico and western Atlantic coastal waters.",
+      "typical_environment": "Sandy and muddy marine sediments where it remains buried."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly consumed.",
+      "safety_warning": "Not recognized as a food shellfish.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No significant commercial human consumption."
+    },
+    "similar_species": [
+      "Antalis dentalis",
+      "Antalis vulgaris",
+      "Fissidentalium candidum"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Vernede's tusk",
+      "scientific_name": "Pictodentalium vernedei",
+      "family": "Dentaliidae",
+      "genus": "Pictodentalium",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Pictodentalium_vernedei.png",
+    "appearance": {
+      "shell_shape": "Slender, elongated and gently curved tusk-shaped shell.",
+      "shell_color": "White to pale cream.",
+      "pattern": "Fine longitudinal sculpture with variable external markings.",
+      "surface_texture": "Longitudinally ribbed and finely sculptured.",
+      "size": "Small to medium-sized tusk shell.",
+      "distinctive_markings": "Narrow curved shell with longitudinal ribbing and characteristic surface sculpture."
+    },
+    "habitat": {
+      "habitat_type": "Benthic marine habitat",
+      "water_type": "Marine",
+      "depth_range": "Subtidal to deeper marine waters.",
+      "geographic_distribution": "Western Pacific, including Japan, China and Taiwan.",
+      "typical_environment": "Soft-bottom marine habitats where the animal burrows into sediment."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not commonly consumed.",
+      "safety_warning": "Not recognized as a commercial food species.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No known commercial human consumption."
+    },
+    "similar_species": [
+      "Pictodentalium formosum",
+      "Fissidentalium candidum",
+      "Fissidentalium aurae"
+    ]
+  },
+  {
+    "basic_identification": {
+      "common_name": "Snake tusk",
+      "scientific_name": "Siphonodentalium colubridens",
+      "family": "Gadilidae",
+      "genus": "Siphonodentalium",
+      "classification": "Scaphopod",
+      "conservation_status": "Not Evaluated"
+    },
+    "image_path": "static/images/shells/Siphonodentalium_colubridens.png",
+    "appearance": {
+      "shell_shape": "Very slender, smooth and elongated tubular tusk-shaped shell.",
+      "shell_color": "White.",
+      "pattern": "Generally lacks visible external patterning.",
+      "surface_texture": "Smooth and polished-looking.",
+      "size": "Approximately 15 mm in length and about 2.5 mm wide.",
+      "distinctive_markings": "Smooth white shell with a characteristic swelling below the anterior aperture."
+    },
+    "habitat": {
+      "habitat_type": "Deep-sea benthic habitat",
+      "water_type": "Marine",
+      "depth_range": "Approximately 1300 m based on the original recorded specimen.",
+      "geographic_distribution": "Recorded from the southwestern Pacific, particularly waters east of New Zealand.",
+      "typical_environment": "Deep ocean sediment where it lives buried in the seabed."
+    },
+    "edibility_and_safety": {
+      "edibility": "Not consumed as food.",
+      "safety_warning": "Deep-sea scaphopod with no recognized food use.",
+      "toxicity": "No specific inherent toxicity is documented.",
+      "human_consumption": "No known commercial human consumption."
+    },
+    "similar_species": [
+      "Cadulus teliger",
+      "Other Siphonodentalium species",
+      "Other Gadilidae"
+    ]
+  }
+
+]
+
+
+

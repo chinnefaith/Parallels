@@ -1,0 +1,113 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ShellScans | Shells Library</title>
+    <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+    <link rel="stylesheet" href="{% static 'css/shells-library.css' %}">
+</head>
+<body>
+    <div class="shell">
+        <header class="topbar">
+            <div class="brand">
+                <img class="brand-mark" src="{% static seastem_logo %}" alt="Seastem logo">
+                <div>
+                    <p class="brand-name">ShellScan</p>
+                    <p class="brand-subtitle">Shells reference library</p>
+                </div>
+            </div>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a class="nav-button" href="{% url 'dashboard' %}">Dashboard</a>
+                <a class="nav-button is-active" href="{% url 'shells_library' %}" aria-current="page">Shells Library</a>
+                <a class="nav-button" href="{% url 'shell_quiz' %}">Quiz</a>
+                <a class="nav-button" href="{% url 'history' %}">History</a>
+                <a class="nav-button" href="{% url 'about_us' %}">About Us</a>
+            </nav>
+            <div class="userbar">
+                <span class="greeting">Hello, {{ user.username }}</span>
+                <form method="post" action="{% url 'signout' %}">
+                    {% csrf_token %}
+                    <button class="logout-button" type="submit">Logout</button>
+                </form>
+            </div>
+        </header>
+
+        <main class="workspace library-workspace">
+            <section class="library-intro">
+                <div>
+                    <p class="library-eyebrow">FIELD GUIDE · SHELL COLLECTION</p>
+                    <h1>Shells Library</h1>
+                    <p class="library-description">Browse shell references grouped by class, with image and identification details for each entry.</p>
+                </div>
+                <div class="collection-count">
+                    <strong>{{ shell_count }}</strong>
+                    <span>shell references</span>
+                </div>
+            </section>
+
+            <nav class="category-nav" aria-label="Shell categories">
+                <button class="category-filter is-active" type="button" data-category-filter="all" aria-pressed="true">
+                    <span class="category-filter-all" aria-hidden="true">All</span>
+                    <span class="category-filter-label">All shells</span>
+                    <span class="category-filter-count">{{ shell_count }}</span>
+                </button>
+                {% for category in categories %}
+                    <button class="category-filter" type="button" data-category-filter="{{ category.slug }}" aria-pressed="false">
+                        {% if category.image_url %}
+                            <img src="{{ category.image_url }}" alt="" loading="lazy">
+                        {% else %}
+                            <span class="category-filter-placeholder" aria-hidden="true">{{ category.name|slice:":1" }}</span>
+                        {% endif %}
+                        <span class="category-filter-label">{{ category.name }}</span>
+                        <span class="category-filter-count">{{ category.shells|length }}</span>
+                    </button>
+                {% endfor %}
+            </nav>
+
+            {% for category in categories %}
+                <section class="category-section" data-shell-category="{{ category.slug }}" aria-label="{{ category.name }}">
+                    <div class="shell-grid">
+                        {% for shell in category.shells %}
+                            {% with identification=shell.basic_identification appearance=shell.appearance %}
+                                <a class="shell-card" href="{% url 'shell_detail' shell_id=shell.id %}" aria-label="View details for {{ identification.common_name }}">
+                                    <div class="shell-card-image">
+                                        {% if shell.image_url %}
+                                            <img src="{{ shell.image_url }}" alt="{{ identification.common_name }}" loading="lazy">
+                                        {% elif category.image_url %}
+                                            <img src="{{ category.image_url }}" alt="{{ category.name }} shell" loading="lazy">
+                                        {% else %}
+                                            <div class="shell-image-placeholder" role="img" aria-label="No image available for {{ identification.common_name }}">
+                                                <span aria-hidden="true">{{ identification.common_name|slice:":1" }}</span>
+                                            </div>
+                                        {% endif %}
+                                        <span class="class-tag">{{ identification.classification|default:category.name }}</span>
+                                    </div>
+                                    <div class="shell-card-content">
+                                        <h3>{{ identification.common_name }}</h3>
+                                        <p class="scientific-name">{{ identification.scientific_name }}</p>
+                                        <dl class="shell-details">
+                                            <div>
+                                                <dt>Family</dt>
+                                                <dd>{{ identification.family|default:"Not listed" }}</dd>
+                                            </div>
+                                            <div>
+                                                <dt>Size</dt>
+                                                <dd>{{ appearance.size|default:"Not listed" }}</dd>
+                                            </div>
+                                        </dl>
+                                    </div>
+                                </a>
+                            {% endwith %}
+                        {% endfor %}
+                    </div>
+                </section>
+            {% empty %}
+                <p class="library-empty">No shell references are available yet.</p>
+            {% endfor %}
+        </main>
+    </div>
+    <script src="{% static 'js/shells-library.js' %}" defer></script>
+</body>
+</html>

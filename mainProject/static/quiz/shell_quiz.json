@@ -1,0 +1,1277 @@
+{
+  "quiz_title": "Test your knowledge",
+  "questions_per_category": {
+    "identification": 20,
+    "habitat": 15,
+    "edibility": 10,
+    "scientific": 26
+  },
+  "total_questions": 71,
+  "image_directory": "static/quiz/images/",
+  "categories": [
+    {
+      "id": "identification",
+      "name": "Shell Identification",
+      "question_type": "image_choice",
+      "questions": [
+        {
+          "id": 1,
+          "type": "image_choice",
+          "question": "Which of the following seashells belongs to the family Conidae?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "conus_textile.jpg",
+              "image_path": "static/quiz/images/conus_textile.jpg",
+              "alt_text": "Conus textile"
+            },
+            {
+              "label": "B",
+              "image_name": "conus_miles.jpg",
+              "image_path": "static/quiz/images/conus_miles.jpg",
+              "alt_text": "Conus miles"
+            },
+            {
+              "label": "C",
+              "image_name": "cypraea_tigris.jpg",
+              "image_path": "static/quiz/images/cypraea_tigris.jpg",
+              "alt_text": "Cypraea tigris"
+            },
+            {
+              "label": "D",
+              "image_name": "haliotis_asinina.jpg",
+              "image_path": "static/quiz/images/haliotis_asinina.jpg",
+              "alt_text": "Haliotis asinina"
+            }
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 2,
+          "type": "image_choice",
+          "question": "Which shell is commonly known as a cone shell?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "cypraea_tigris.jpg",
+              "image_path": "static/quiz/images/cypraea_tigris.jpg",
+              "alt_text": "Cypraea tigris"
+            },
+            {
+              "label": "B",
+              "image_name": "haliotis_asinina.jpg",
+              "image_path": "static/quiz/images/haliotis_asinina.jpg",
+              "alt_text": "Haliotis asinina"
+            },
+            {
+              "label": "C",
+              "image_name": "nautilus_pompilius.jpg",
+              "image_path": "static/quiz/images/nautilus_pompilius.jpg",
+              "alt_text": "Nautilus pompilius"
+            },
+            {
+              "label": "D",
+              "image_name": "conus_miles.jpg",
+              "image_path": "static/quiz/images/conus_miles.jpg",
+              "alt_text": "Conus miles"
+            }
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": 3,
+          "type": "image_choice",
+          "question": "Which shell is commonly called the tiger cowrie?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "nautilus_pompilius.jpg",
+              "image_path": "static/quiz/images/nautilus_pompilius.jpg",
+              "alt_text": "Nautilus pompilius"
+            },
+            {
+              "label": "B",
+              "image_name": "monetaria_moneta.jpg",
+              "image_path": "static/quiz/images/monetaria_moneta.jpg",
+              "alt_text": "Monetaria moneta"
+            },
+            {
+              "label": "C",
+              "image_name": "cypraea_tigris.jpg",
+              "image_path": "static/quiz/images/cypraea_tigris.jpg",
+              "alt_text": "Cypraea tigris"
+            },
+            {
+              "label": "D",
+              "image_name": "haliotis_asinina.jpg",
+              "image_path": "static/quiz/images/haliotis_asinina.jpg",
+              "alt_text": "Haliotis asinina"
+            }
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": 4,
+          "type": "image_choice",
+          "question": "Which shell is commonly known as an abalone?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "strombus_canarium.jpg",
+              "image_path": "static/quiz/images/strombus_canarium.jpg",
+              "alt_text": "Strombus canarium"
+            },
+            {
+              "label": "B",
+              "image_name": "haliotis_asinina.jpg",
+              "image_path": "static/quiz/images/haliotis_asinina.jpg",
+              "alt_text": "Haliotis asinina"
+            },
+            {
+              "label": "C",
+              "image_name": "nautilus_pompilius.jpg",
+              "image_path": "static/quiz/images/nautilus_pompilius.jpg",
+              "alt_text": "Nautilus pompilius"
+            },
+            {
+              "label": "D",
+              "image_name": "monetaria_moneta.jpg",
+              "image_path": "static/quiz/images/monetaria_moneta.jpg",
+              "alt_text": "Monetaria moneta"
+            }
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": 5,
+          "type": "image_choice",
+          "question": "Which shell belongs to the genus Nautilus?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "nautilus_pompilius.jpg",
+              "image_path": "static/quiz/images/nautilus_pompilius.jpg",
+              "alt_text": "Nautilus pompilius"
+            },
+            {
+              "label": "B",
+              "image_name": "monetaria_moneta.jpg",
+              "image_path": "static/quiz/images/monetaria_moneta.jpg",
+              "alt_text": "Monetaria moneta"
+            },
+            {
+              "label": "C",
+              "image_name": "strombus_canarium.jpg",
+              "image_path": "static/quiz/images/strombus_canarium.jpg",
+              "alt_text": "Strombus canarium"
+            },
+            {
+              "label": "D",
+              "image_name": "cypraea_annulus.jpg",
+              "image_path": "static/quiz/images/cypraea_annulus.jpg",
+              "alt_text": "Cypraea annulus"
+            }
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 6,
+          "type": "image_choice",
+          "question": "Which shell is commonly known as the money cowrie?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "strombus_canarium.jpg",
+              "image_path": "static/quiz/images/strombus_canarium.jpg",
+              "alt_text": "Strombus canarium"
+            },
+            {
+              "label": "B",
+              "image_name": "cypraea_annulus.jpg",
+              "image_path": "static/quiz/images/cypraea_annulus.jpg",
+              "alt_text": "Cypraea annulus"
+            },
+            {
+              "label": "C",
+              "image_name": "dentalium_shell.jpg",
+              "image_path": "static/quiz/images/dentalium_shell.jpg",
+              "alt_text": "Dentalium shell"
+            },
+            {
+              "label": "D",
+              "image_name": "monetaria_moneta.jpg",
+              "image_path": "static/quiz/images/monetaria_moneta.jpg",
+              "alt_text": "Monetaria moneta"
+            }
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": 7,
+          "type": "image_choice",
+          "question": "Which shell belongs to the family Strombidae?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "dentalium_shell.jpg",
+              "image_path": "static/quiz/images/dentalium_shell.jpg",
+              "alt_text": "Dentalium shell"
+            },
+            {
+              "label": "B",
+              "image_name": "natica_shell.jpg",
+              "image_path": "static/quiz/images/natica_shell.jpg",
+              "alt_text": "Natica shell"
+            },
+            {
+              "label": "C",
+              "image_name": "strombus_canarium.jpg",
+              "image_path": "static/quiz/images/strombus_canarium.jpg",
+              "alt_text": "Strombus canarium"
+            },
+            {
+              "label": "D",
+              "image_name": "cypraea_annulus.jpg",
+              "image_path": "static/quiz/images/cypraea_annulus.jpg",
+              "alt_text": "Cypraea annulus"
+            }
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": 8,
+          "type": "image_choice",
+          "question": "Which shell is a member of the cowrie group?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "murex_ramosus.jpg",
+              "image_path": "static/quiz/images/murex_ramosus.jpg",
+              "alt_text": "Murex ramosus"
+            },
+            {
+              "label": "B",
+              "image_name": "cypraea_annulus.jpg",
+              "image_path": "static/quiz/images/cypraea_annulus.jpg",
+              "alt_text": "Cypraea annulus"
+            },
+            {
+              "label": "C",
+              "image_name": "dentalium_shell.jpg",
+              "image_path": "static/quiz/images/dentalium_shell.jpg",
+              "alt_text": "Dentalium shell"
+            },
+            {
+              "label": "D",
+              "image_name": "natica_shell.jpg",
+              "image_path": "static/quiz/images/natica_shell.jpg",
+              "alt_text": "Natica shell"
+            }
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": 9,
+          "type": "image_choice",
+          "question": "Which shell has a long, narrow, tusk-like shape?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "dentalium_shell.jpg",
+              "image_path": "static/quiz/images/dentalium_shell.jpg",
+              "alt_text": "Dentalium shell"
+            },
+            {
+              "label": "B",
+              "image_name": "natica_shell.jpg",
+              "image_path": "static/quiz/images/natica_shell.jpg",
+              "alt_text": "Natica shell"
+            },
+            {
+              "label": "C",
+              "image_name": "murex_ramosus.jpg",
+              "image_path": "static/quiz/images/murex_ramosus.jpg",
+              "alt_text": "Murex ramosus"
+            },
+            {
+              "label": "D",
+              "image_name": "murex_shell.jpg",
+              "image_path": "static/quiz/images/murex_shell.jpg",
+              "alt_text": "Murex shell"
+            }
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 10,
+          "type": "image_choice",
+          "question": "Which shell is commonly called a moon snail shell?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "murex_ramosus.jpg",
+              "image_path": "static/quiz/images/murex_ramosus.jpg",
+              "alt_text": "Murex ramosus"
+            },
+            {
+              "label": "B",
+              "image_name": "murex_shell.jpg",
+              "image_path": "static/quiz/images/murex_shell.jpg",
+              "alt_text": "Murex shell"
+            },
+            {
+              "label": "C",
+              "image_name": "olive_shell.jpg",
+              "image_path": "static/quiz/images/olive_shell.jpg",
+              "alt_text": "Olive shell"
+            },
+            {
+              "label": "D",
+              "image_name": "natica_shell.jpg",
+              "image_path": "static/quiz/images/natica_shell.jpg",
+              "alt_text": "Natica shell"
+            }
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": 11,
+          "type": "image_choice",
+          "question": "Which shell belongs to the genus Murex?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "olive_shell.jpg",
+              "image_path": "static/quiz/images/olive_shell.jpg",
+              "alt_text": "Olive shell"
+            },
+            {
+              "label": "B",
+              "image_name": "cowrie_shell.jpg",
+              "image_path": "static/quiz/images/cowrie_shell.jpg",
+              "alt_text": "Cowrie shell"
+            },
+            {
+              "label": "C",
+              "image_name": "murex_ramosus.jpg",
+              "image_path": "static/quiz/images/murex_ramosus.jpg",
+              "alt_text": "Murex ramosus"
+            },
+            {
+              "label": "D",
+              "image_name": "murex_shell.jpg",
+              "image_path": "static/quiz/images/murex_shell.jpg",
+              "alt_text": "Murex shell"
+            }
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": 12,
+          "type": "image_choice",
+          "question": "Which shell is recognized by its prominent spiny projections?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "conch_shell.jpg",
+              "image_path": "static/quiz/images/conch_shell.jpg",
+              "alt_text": "Conch shell"
+            },
+            {
+              "label": "B",
+              "image_name": "murex_shell.jpg",
+              "image_path": "static/quiz/images/murex_shell.jpg",
+              "alt_text": "Murex shell"
+            },
+            {
+              "label": "C",
+              "image_name": "olive_shell.jpg",
+              "image_path": "static/quiz/images/olive_shell.jpg",
+              "alt_text": "Olive shell"
+            },
+            {
+              "label": "D",
+              "image_name": "cowrie_shell.jpg",
+              "image_path": "static/quiz/images/cowrie_shell.jpg",
+              "alt_text": "Cowrie shell"
+            }
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": 13,
+          "type": "image_choice",
+          "question": "Which shell is commonly called an olive shell?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "olive_shell.jpg",
+              "image_path": "static/quiz/images/olive_shell.jpg",
+              "alt_text": "Olive shell"
+            },
+            {
+              "label": "B",
+              "image_name": "cowrie_shell.jpg",
+              "image_path": "static/quiz/images/cowrie_shell.jpg",
+              "alt_text": "Cowrie shell"
+            },
+            {
+              "label": "C",
+              "image_name": "conch_shell.jpg",
+              "image_path": "static/quiz/images/conch_shell.jpg",
+              "alt_text": "Conch shell"
+            },
+            {
+              "label": "D",
+              "image_name": "abalone_shell.jpg",
+              "image_path": "static/quiz/images/abalone_shell.jpg",
+              "alt_text": "Abalone shell"
+            }
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 14,
+          "type": "image_choice",
+          "question": "Which shell has a smooth, glossy surface associated with cowries?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "conch_shell.jpg",
+              "image_path": "static/quiz/images/conch_shell.jpg",
+              "alt_text": "Conch shell"
+            },
+            {
+              "label": "B",
+              "image_name": "abalone_shell.jpg",
+              "image_path": "static/quiz/images/abalone_shell.jpg",
+              "alt_text": "Abalone shell"
+            },
+            {
+              "label": "C",
+              "image_name": "cone_shell.jpg",
+              "image_path": "static/quiz/images/cone_shell.jpg",
+              "alt_text": "Cone shell"
+            },
+            {
+              "label": "D",
+              "image_name": "cowrie_shell.jpg",
+              "image_path": "static/quiz/images/cowrie_shell.jpg",
+              "alt_text": "Cowrie shell"
+            }
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": 15,
+          "type": "image_choice",
+          "question": "Which shell is commonly recognized as a conch?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "cone_shell.jpg",
+              "image_path": "static/quiz/images/cone_shell.jpg",
+              "alt_text": "Cone shell"
+            },
+            {
+              "label": "B",
+              "image_name": "clam_shell.jpg",
+              "image_path": "static/quiz/images/clam_shell.jpg",
+              "alt_text": "Clam shell"
+            },
+            {
+              "label": "C",
+              "image_name": "conch_shell.jpg",
+              "image_path": "static/quiz/images/conch_shell.jpg",
+              "alt_text": "Conch shell"
+            },
+            {
+              "label": "D",
+              "image_name": "abalone_shell.jpg",
+              "image_path": "static/quiz/images/abalone_shell.jpg",
+              "alt_text": "Abalone shell"
+            }
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": 16,
+          "type": "image_choice",
+          "question": "Which shell is flat and ear-shaped with rows of holes?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "oyster_shell.jpg",
+              "image_path": "static/quiz/images/oyster_shell.jpg",
+              "alt_text": "Oyster shell"
+            },
+            {
+              "label": "B",
+              "image_name": "abalone_shell.jpg",
+              "image_path": "static/quiz/images/abalone_shell.jpg",
+              "alt_text": "Abalone shell"
+            },
+            {
+              "label": "C",
+              "image_name": "cone_shell.jpg",
+              "image_path": "static/quiz/images/cone_shell.jpg",
+              "alt_text": "Cone shell"
+            },
+            {
+              "label": "D",
+              "image_name": "clam_shell.jpg",
+              "image_path": "static/quiz/images/clam_shell.jpg",
+              "alt_text": "Clam shell"
+            }
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": 17,
+          "type": "image_choice",
+          "question": "Which shell is typically cone-shaped and may have colorful patterns?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "cone_shell.jpg",
+              "image_path": "static/quiz/images/cone_shell.jpg",
+              "alt_text": "Cone shell"
+            },
+            {
+              "label": "B",
+              "image_name": "clam_shell.jpg",
+              "image_path": "static/quiz/images/clam_shell.jpg",
+              "alt_text": "Clam shell"
+            },
+            {
+              "label": "C",
+              "image_name": "oyster_shell.jpg",
+              "image_path": "static/quiz/images/oyster_shell.jpg",
+              "alt_text": "Oyster shell"
+            },
+            {
+              "label": "D",
+              "image_name": "mussel_shell.jpg",
+              "image_path": "static/quiz/images/mussel_shell.jpg",
+              "alt_text": "Mussel shell"
+            }
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 18,
+          "type": "image_choice",
+          "question": "Which shell is a bivalve with two hinged valves?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "oyster_shell.jpg",
+              "image_path": "static/quiz/images/oyster_shell.jpg",
+              "alt_text": "Oyster shell"
+            },
+            {
+              "label": "B",
+              "image_name": "mussel_shell.jpg",
+              "image_path": "static/quiz/images/mussel_shell.jpg",
+              "alt_text": "Mussel shell"
+            },
+            {
+              "label": "C",
+              "image_name": "conus_textile.jpg",
+              "image_path": "static/quiz/images/conus_textile.jpg",
+              "alt_text": "Conus textile"
+            },
+            {
+              "label": "D",
+              "image_name": "clam_shell.jpg",
+              "image_path": "static/quiz/images/clam_shell.jpg",
+              "alt_text": "Clam shell"
+            }
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": 19,
+          "type": "image_choice",
+          "question": "Which shell is commonly associated with oysters?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "conus_textile.jpg",
+              "image_path": "static/quiz/images/conus_textile.jpg",
+              "alt_text": "Conus textile"
+            },
+            {
+              "label": "B",
+              "image_name": "conus_miles.jpg",
+              "image_path": "static/quiz/images/conus_miles.jpg",
+              "alt_text": "Conus miles"
+            },
+            {
+              "label": "C",
+              "image_name": "oyster_shell.jpg",
+              "image_path": "static/quiz/images/oyster_shell.jpg",
+              "alt_text": "Oyster shell"
+            },
+            {
+              "label": "D",
+              "image_name": "mussel_shell.jpg",
+              "image_path": "static/quiz/images/mussel_shell.jpg",
+              "alt_text": "Mussel shell"
+            }
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": 20,
+          "type": "image_choice",
+          "question": "Which shell is commonly associated with mussels?",
+          "choices": [
+            {
+              "label": "A",
+              "image_name": "cypraea_tigris.jpg",
+              "image_path": "static/quiz/images/cypraea_tigris.jpg",
+              "alt_text": "Cypraea tigris"
+            },
+            {
+              "label": "B",
+              "image_name": "mussel_shell.jpg",
+              "image_path": "static/quiz/images/mussel_shell.jpg",
+              "alt_text": "Mussel shell"
+            },
+            {
+              "label": "C",
+              "image_name": "conus_textile.jpg",
+              "image_path": "static/quiz/images/conus_textile.jpg",
+              "alt_text": "Conus textile"
+            },
+            {
+              "label": "D",
+              "image_name": "conus_miles.jpg",
+              "image_path": "static/quiz/images/conus_miles.jpg",
+              "alt_text": "Conus miles"
+            }
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "habitat",
+      "name": "Shell Habitat",
+      "question_type": "text_choice",
+      "questions": [
+        {
+          "id": 21,
+          "type": "text_choice",
+          "question": "Where are many cone snails commonly found?",
+          "question_image_name": "cone_ahell.jpg",
+          "question_image_path": "static/quiz/images/cone_shell.jpg",
+          "choices": [
+            "Coral reefs",
+            "Mountain lakes",
+            "Deserts",
+            "Freshwater rivers"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 22,
+          "type": "text_choice",
+          "question": "Where are many cowries commonly found?",
+          "question_image_name": "cowrie_shell.jpg",
+          "question_image_path": "static/quiz/images/cowrie_shell.jpg",
+          "choices": [
+            "Warm tropical marine waters",
+            "High mountain streams",
+            "Dry grasslands",
+            "Polar lakes"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 23,
+          "type": "text_choice",
+          "question": "Where do many abalones live?",
+          "question_image_name": "abalone_shell.jpg",
+          "question_image_path": "static/quiz/images/abalone_shell.jpg",
+          "choices": [
+            "Rocky coastal areas",
+            "Desert dunes",
+            "Mountain caves",
+            "Freshwater ponds"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 24,
+          "type": "text_choice",
+          "question": "What habitat is commonly associated with oysters?",
+          "question_image_name": "oyster_shell.jpg",
+          "question_image_path": "static/quiz/images/oyster_shell.jpg",
+          "choices": [
+            "Coastal estuaries and shallow marine waters",
+            "Desert springs",
+            "Mountain peaks",
+            "Deep freshwater lakes"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 25,
+          "type": "text_choice",
+          "question": "Where can many conch species be found?",
+          "question_image_name": "conch_shell.jpg",
+          "question_image_path": "static/quiz/images/conch_shell.jpg",
+          "choices": [
+            "Shallow sandy or seagrass habitats",
+            "Snow fields",
+            "Mountain forests",
+            "Underground caves"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 26,
+          "type": "text_choice",
+          "question": "What type of environment does the chambered nautilus inhabit?",
+          "question_image_name": "nautilius_pompilius.jpg",
+          "question_image_path": "static/quiz/images/nautilus_pompilius.jpg",
+          "choices": [
+            "Deep tropical and subtropical marine waters",
+            "Freshwater ponds",
+            "Sandy deserts",
+            "Mangrove leaves above water"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 27,
+          "type": "text_choice",
+          "question": "Where are many sand-dwelling seashell species found?",
+          "question_image_name": "shell_sandy_beach.jpg",
+          "question_image_path": "static/quiz/images/shell_sandy_beach.jpg",
+          "choices": [
+            "Sandy beaches and shallow sandy bottoms",
+            "Mountain tops",
+            "Dry forests",
+            "Glaciers"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 28,
+          "type": "text_choice",
+          "question": "Which habitat is especially important for many marine mollusks?",
+          "question_image_name": "coral_reef_shells.jpg",
+          "question_image_path": "static/quiz/images/coral_reef_shells.jpg",
+          "choices": [
+            "Coral reefs",
+            "Alpine meadows",
+            "Desert dunes",
+            "Freshwater waterfalls"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 29,
+          "type": "text_choice",
+          "question": "Where are mangrove-associated mollusks commonly found?",
+          "question_image_name": "mangrove_mollusks.jpg",
+          "question_image_path": "static/quiz/images/mangroove_mollusks.jpg",
+          "choices": [
+            "Mangrove forests and muddy coastal areas",
+            "Mountain glaciers",
+            "Dry deserts",
+            "Open grasslands"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 30,
+          "type": "text_choice",
+          "question": "What environment is typical for many freshwater snails?",
+          "question_image_name": "freshwater_snail.png",
+          "question_image_path": "static/quiz/images/freshwater_snail.png",
+          "choices": [
+            "Lakes, ponds, and rivers",
+            "Coral reefs only",
+            "Open ocean trenches only",
+            "Desert dunes"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 31,
+          "type": "text_choice",
+          "question": "Where would you most likely find shells adapted to intertidal conditions?",
+          "question_image_name": "intertidal_shells.jpg",
+          "question_image_path": "static/quiz/images/intertidal_shells.jpg",
+          "choices": [
+            "Rocky shores and tidal flats",
+            "Mountain peaks",
+            "Desert interiors",
+            "Deep caves"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 32,
+          "type": "text_choice",
+          "question": "What habitat is associated with many sand-burrowing bivalves?",
+          "question_image_name": "burrowing_clam_sand.jpg",
+          "question_image_path": "static/quiz/images/burrowing_clam_sand.jpg",
+          "choices": [
+            "Sandy or muddy seafloors",
+            "Tree canopies",
+            "Mountain cliffs",
+            "Dry savannas"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 33,
+          "type": "text_choice",
+          "question": "Where do many reef-associated cowries live?",
+          "question_image_name": "cowrie_coral_reef.jpg",
+          "question_image_path": "static/quiz/images/cowrie_coral_reef.jpg",
+          "choices": [
+            "Coral reefs and rocky reef surfaces",
+            "Freshwater lakes",
+            "Deserts",
+            "Mountain streams"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 34,
+          "type": "text_choice",
+          "question": "Which habitat commonly supports large populations of oysters?",
+          "question_image_name": "oyster_estuary.jpg",
+          "question_image_path": "static/quiz/images/oyster_estuary.jpg",
+          "choices": [
+            "Estuaries and sheltered coastal waters",
+            "High-altitude lakes",
+            "Dry forests",
+            "Desert valleys"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 35,
+          "type": "text_choice",
+          "question": "Where do many rocky-shore gastropods attach themselves?",
+          "question_image_name": "rocky_shore_gastropod.jpg",
+          "question_image_path": "static/quiz/images/rocky_shore_gastropod.jpg",
+          "choices": [
+            "Rocks in the intertidal zone",
+            "Desert sand dunes",
+            "Freshwater waterfalls",
+            "Mountain snowfields"
+          ],
+          "answer_index": 0
+        }
+      ]
+    },
+    {
+      "id": "edibility",
+      "name": "Shell Edibility",
+      "question_type": "text_choice",
+      "questions": [
+        {
+          "id": 36,
+          "type": "text_choice",
+          "question": "Which shellfish is commonly eaten as seafood?",
+          "question_image_name": "oyster_shell.jpg",
+          "question_image_path": "static/quiz/images/oyster_shell.jpg",
+          "choices": [
+            "Oyster",
+            "Cone snail",
+            "Nautilus",
+            "Decorative cowrie"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 37,
+          "type": "text_choice",
+          "question": "Which bivalve is commonly consumed as seafood?",
+          "question_image_name": "clam_shell.jpg",
+          "question_image_path": "static/quiz/images/clam_shell.jpg",
+          "choices": [
+            "Clam",
+            "Cone snail",
+            "Nautilus",
+            "Murex"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 38,
+          "type": "text_choice",
+          "question": "Which shellfish is commonly harvested and eaten in many coastal communities?",
+          "question_image_name": "mussel_shell.jpg",
+          "question_image_path": "static/quiz/images/mussel_shell.jpg",
+          "choices": [
+            "Mussel",
+            "Cowrie",
+            "Cone snail",
+            "Nautilus"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 39,
+          "type": "text_choice",
+          "question": "Which gastropod is commonly eaten in some coastal regions?",
+          "question_image_name": "abalone_shell.jpg",
+          "question_image_path": "static/quiz/images/abalone_shell.jpg",
+          "choices": [
+            "Abalone",
+            "Cone snail",
+            "Cowrie",
+            "Nautilus"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 40,
+          "type": "text_choice",
+          "question": "Which marine snail is commonly harvested as food in some tropical regions?",
+          "question_image_name": "conch_shell.jpg",
+          "question_image_path": "static/quiz/images/conch_shell.jpg",
+          "choices": [
+            "Conch",
+            "Cone snail",
+            "Cowrie",
+            "Nautilus"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 41,
+          "type": "text_choice",
+          "question": "Which shellfish is commonly served raw or cooked but requires careful food handling?",
+          "question_image_name": "oyster_shell.jpg",
+          "question_image_path": "static/quiz/images/oyster_shell.jpg",
+          "choices": [
+            "Oyster",
+            "Cowrie",
+            "Cone snail",
+            "Nautilus"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 42,
+          "type": "text_choice",
+          "question": "Which animal is commonly harvested for its edible muscular foot?",
+          "question_image_name": "abalone_shell.jpg",
+          "question_image_path": "static/quiz/images/abalone_shell.jpg",
+          "choices": [
+            "Abalone",
+            "Cowrie",
+            "Cone snail",
+            "Nautilus"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 43,
+          "type": "text_choice",
+          "question": "Which shellfish is commonly used in soups, stews, and pasta dishes?",
+          "question_image_name": "clam_shell.jpg",
+          "question_image_path": "static/quiz/images/clam_shell.jpg",
+          "choices": [
+            "Clam",
+            "Cowrie",
+            "Cone snail",
+            "Nautilus"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 44,
+          "type": "text_choice",
+          "question": "Which shellfish is often steamed, grilled, or added to seafood dishes?",
+          "question_image_name": "mussel_shell.jpg",
+          "question_image_path": "static/quiz/images/mussel_shell.jpg",
+          "choices": [
+            "Mussel",
+            "Cowrie",
+            "Cone snail",
+            "Nautilus"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 45,
+          "type": "text_choice",
+          "question": "Which shellfish is often associated with pearl farming rather than ordinary seafood consumption?",
+          "question_image_name": "pearl_oyster.jpg",
+          "question_image_path": "static/quiz/images/pearl_oyster.jpg",
+          "choices": [
+            "Pearl oyster",
+            "Cone snail",
+            "Cowrie",
+            "Nautilus"
+          ],
+          "answer_index": 0
+        }
+      ]
+    },
+    {
+      "id": "scientific",
+      "name": "Scientific Information",
+      "question_type": "text_choice",
+      "questions": [
+        {
+          "id": 46,
+          "type": "text_choice",
+          "question": "What is the scientific class that includes clams, oysters, and mussels?",
+          "question_image_name": "bivalve_diagram.jpg",
+          "question_image_path": "static/quiz/images/bivalve_diagram.jpg",
+          "choices": [
+            "Bivalvia",
+            "Gastropoda",
+            "Cephalopoda",
+            "Scaphopoda"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 47,
+          "type": "text_choice",
+          "question": "What is the scientific class of the chambered nautilus?",
+          "question_image_name": "cephalopod_diagram.jpg",
+          "question_image_path": "static/quiz/images/cephalopod_diagram.jpg",
+          "choices": [
+            "Cephalopoda",
+            "Bivalvia",
+            "Gastropoda",
+            "Scaphopoda"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 48,
+          "type": "text_choice",
+          "question": "How many valves does a typical bivalve shell have?",
+          "question_image_name": "bivalve_two_valves.jpg",
+          "question_image_path": "static/quiz/images/bivalve_two_valves.jpg",
+          "choices": [
+            "Two",
+            "One",
+            "Three",
+            "Four"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 49,
+          "type": "text_choice",
+          "question": "What is the opening of a gastropod shell commonly called?",
+          "question_image_name": "gastropod_aperture.jpg",
+          "question_image_path": "static/quiz/images/gastropod_aperture.jpg",
+          "choices": [
+            "Aperture",
+            "Umbo",
+            "Hinge",
+            "Siphon"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 50,
+          "type": "text_choice",
+          "question": "What type of symmetry do typical bivalves have?",
+          "question_image_name": "bivalve_symmetry.jpg",
+          "question_image_path": "static/quiz/images/bivalve_symmetry.jpg",
+          "choices": [
+            "Bilateral symmetry",
+            "Radial symmetry",
+            "No symmetry",
+            "Five-part symmetry"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": 51,
+          "type": "text_choice",
+          "question": "Which mollusk group includes squid, octopus, cuttlefish, and nautiluses?",
+          "question_image_name": "cephalopod_group.jpg",
+          "question_image_path": "static/quiz/images/cephalopod_group.jpg",
+          "choices": [
+            "Cephalopods",
+            "Bivalves",
+            "Gastropods",
+            "Scaphopods"
+          ],
+          "answer_index": 0
+        },
+          {
+            "id": 52, "type": "text_choice",
+            "question": "Why are mangrove forests important habitats for many mollusks?",
+            "question_image_name": "mangrove_habitat.jpg",
+            "question_image_path": "static/quiz/images/mangrove_habitat.jpg",
+            "choices": ["They provide food and shelter", "They contain only freshwater", "They are always covered by ice", "They have no sediment"],
+            "answer_index": 0
+        },
+        {
+            "id": 53, "type": "text_choice",
+            "question": "What is a major challenge for mollusks living in the intertidal zone?",
+            "question_image_name": "intertidal_zone.jpg",
+            "question_image_path": "static/quiz/images/intertidal_zone.jpg",
+            "choices": ["Permanent darkness", "Regular exposure to air and changing conditions", "Constant freezing", "Lack of any water movement"],
+            "answer_index": 1
+        },
+        {
+            "id": 54, "type": "text_choice",
+            "question": "Why are seagrass beds valuable habitats for some shellfish?",
+            "question_image_name": "seagrass_bed.jpg",
+            "question_image_path": "static/quiz/images/seagrass_bed.jpg",
+            "choices": ["They are made entirely of coral", "They contain no living organisms", "They provide shelter and feeding areas", "They occur only in freshwater rivers"],
+            "answer_index": 2
+        },
+        {
+            "id": 55, "type": "text_choice",
+            "question": "Which bottom type is suitable for many burrowing clams?",
+            "question_image_name": "muddy_seafloor.jpg",
+            "question_image_path": "static/quiz/images/muddy_seafloor.jpg",
+            "choices": ["Dry forest soil", "Frozen ground", "Solid granite cliffs only", "Soft sand or mud"],
+            "answer_index": 3
+        },
+        {
+            "id": 56, "type": "text_choice",
+            "question": "Why is salinity important to marine mollusks?",
+            "question_image_name": "marine_salinity.jpg",
+            "question_image_path": "static/quiz/images/marine_salinity.jpg",
+            "choices": ["Their bodies are adapted to particular salt concentrations", "Salinity determines the shell's color only", "They need completely salt-free water", "They cannot live near water"],
+            "answer_index": 0
+        },
+        {
+            "id": 57, "type": "text_choice",
+            "question": "Which habitat is especially suitable for many rock-attached mussels?",
+            "question_image_name": "rocky_shore_mussels.jpg",
+            "question_image_path": "static/quiz/images/rocky_shore_mussels.jpg",
+            "choices": ["Desert dunes", "Rocky coastal shores", "Mountain grasslands", "Ice-covered lakes"],
+            "answer_index": 1
+        },
+        {
+            "id": 58, "type": "text_choice",
+            "question": "What do complex coral reef structures provide for reef-associated mollusks?",
+            "question_image_name": "coral_reef_habitat.jpg",
+            "question_image_path": "static/quiz/images/coral_reef_habitat.jpg",
+            "choices": ["Permanent land surfaces", "Only freshwater", "Food sources and places for shelter", "Frozen shelter"],
+            "answer_index": 2
+        },
+
+        {
+            "id": 59, "type": "text_choice",
+            "question": "Why is proper handling important when preparing edible shellfish?",
+            "question_image_name": "shellfish_food_safety.jpg",
+            "question_image_path": "static/quiz/images/shellfish_food_safety.jpg",
+            "choices": ["It helps reduce the risk of foodborne illness", "It changes the shellfish into a different species", "It removes the shell permanently", "It makes all shellfish safe regardless of source"],
+            "answer_index": 0
+        },
+        {
+            "id": 60, "type": "text_choice",
+            "question": "Which shellfish is widely cultivated in coastal aquaculture?",
+            "question_image_name": "oyster_aquaculture.jpg",
+            "question_image_path": "static/quiz/images/oyster_aquaculture.jpg",
+            "choices": ["Cone snail", "Cowrie", "Nautilus", "Oyster"],
+            "answer_index": 3
+        },
+        {
+            "id": 61, "type": "text_choice",
+            "question": "What is a major food-safety concern when shellfish come from polluted waters?",
+            "question_image_name": "polluted_shellfish_water.jpg",
+            "question_image_path": "static/quiz/images/polluted_shellfish_water.jpg",
+            "choices": ["They may accumulate harmful microorganisms or contaminants", "Their shells automatically disappear", "They become freshwater animals", "They can no longer filter water"],
+            "answer_index": 0
+        },
+        {
+            "id": 62, "type": "text_choice",
+            "question": "Why should shellfish harvesting closures be followed?",
+            "question_image_name": "shellfish_harvest_closure.jpg",
+            "question_image_path": "static/quiz/images/shellfish_harvest_closure.jpg",
+            "choices": ["They make shellfish grow faster", "They identify every shell species", "They help prevent people from collecting potentially unsafe shellfish", "They increase seawater salinity"],
+            "answer_index": 2
+        },
+        {
+            "id": 63, "type": "text_choice",
+            "question": "Which edible mollusk is a gastropod rather than a bivalve?",
+            "question_image_name": "abalone_food.jpg",
+            "question_image_path": "static/quiz/images/abalone_food.jpg",
+            "choices": ["Clam", "Mussel", "Oyster", "Abalone"],
+            "answer_index": 3
+        },
+        {
+            "id": 64, "type": "text_choice",
+            "question": "Which shellfish is commonly prepared by steaming or cooking in seafood dishes?",
+            "question_image_name": "cooked_mussels.jpg",
+            "question_image_path": "static/quiz/images/cooked_mussels.jpg",
+            "choices": ["Mussels", "Cowries", "Cone snails", "Nautiluses"],
+            "answer_index": 0
+        },
+        {
+            "id": 65, "type": "text_choice",
+            "question": "Why can wild shellfish be unsafe even when they look normal?",
+            "question_image_name": "shellfish_warning.jpg",
+            "question_image_path": "static/quiz/images/shellfish_warning.jpg",
+            "choices": ["Healthy shellfish always glow", "Harmful microbes or toxins may not be visible", "Their shells show every contaminant", "All wild shellfish are poisonous"],
+            "answer_index": 1
+        },
+
+        {
+            "id": 66, "type": "text_choice",
+            "question": "What is the main function of the hinge in a bivalve shell?",
+            "question_image_name": "bivalve_hinge.jpg",
+            "question_image_path": "static/quiz/images/bivalve_hinge.jpg",
+            "choices": ["It produces seawater", "It forms the animal's tentacles", "It connects the two valves and allows them to open and close", "It absorbs sunlight"],
+            "answer_index": 2
+        },
+        {
+            "id": 67, "type": "text_choice",
+            "question": "What is the umbo of a bivalve shell?",
+            "question_image_name": "bivalve_umbo.jpg",
+            "question_image_path": "static/quiz/images/bivalve_umbo.jpg",
+            "choices": ["The opening of a gastropod shell", "The raised, oldest part near the hinge", "A feeding tentacle", "The shell's outermost pigment"],
+            "answer_index": 1
+        },
+        {
+            "id": 68, "type": "text_choice",
+            "question": "What is the periostracum?",
+            "question_image_name": "shell_periostracum.jpg",
+            "question_image_path": "static/quiz/images/shell_periostracum.jpg",
+            "choices": ["The muscular foot of a mollusk", "A chamber inside a nautilus", "The hinge ligament only", "A thin organic outer layer of many mollusk shells"],
+            "answer_index": 3
+        },
+        {
+            "id": 69, "type": "text_choice",
+            "question": "What mineral makes up most of the hard shell material in many mollusks?",
+            "question_image_name": "calcium_carbonate_shell.jpg",
+            "question_image_path": "static/quiz/images/calcium_carbonate_shell.jpg",
+            "choices": ["Sodium chloride", "Calcium carbonate", "Iron oxide", "Silicon metal"],
+            "answer_index": 1
+        },
+        {
+            "id": 70, "type": "text_choice",
+            "question": "Which molluskan structure secretes the material used to build the shell?",
+            "question_image_name": "mollusk_mantle.jpg",
+            "question_image_path": "static/quiz/images/mollusk_mantle.jpg",
+            "choices": ["Radula", "Foot", "Mantle", "Siphon"],
+            "answer_index": 2
+        },
+        {
+            "id": 71, "type": "text_choice",
+            "question": "What is a radula?",
+            "question_image_name": "radula_diagram.jpg",
+            "question_image_path": "static/quiz/images/radula_diagram.jpg",
+            "choices": ["A bivalve shell hinge", "A chamber inside a nautilus shell", "An external shell-opening valve", "A toothed feeding structure found in many mollusks"],
+            "answer_index": 3
+        }
+      ]
+    }
+  ]
+}

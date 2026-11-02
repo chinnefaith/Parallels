@@ -1,0 +1,131 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seastem | Classification Workspace</title>
+    <link rel="stylesheet" href="{% static 'css/dashboard.css' %}">
+</head>
+<body>
+    <div class="shell">
+        <header class="topbar">
+            <div class="brand">
+                <img class="brand-mark" src="{% static 'images/logo.png' %}" alt="ShellScan logo">
+                <div>
+                    <p class="brand-name"><b>ShellScan</b></p>
+                    <p class="brand-subtitle">Parallel classification workspace</p>
+                </div>
+            </div>
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a class="nav-button is-active" href="{% url 'dashboard' %}">Dashboard</a>
+                <a class="nav-button" href="{% url 'shells_library' %}">Shells Library</a>
+                <a class="nav-button" href="{% url 'shell_quiz' %}">Quiz</a>
+                <a class="nav-button" href="{% url 'history' %}">History</a>
+                <a class="nav-button" href="{% url 'about_us' %}">About Us</a>
+            </nav>
+            <div class="userbar">
+                <span class="greeting">Hello, {{ user.username }}</span>
+                <form method="post" action="{% url 'signout' %}">
+                    {% csrf_token %}
+                    <button class="logout-button" type="submit">Logout</button>
+                </form>
+            </div>
+        </header>
+
+        <main class="workspace">
+            {% if messages %}
+                {% for message in messages %}<div class="message">{{ message }}</div>{% endfor %}
+            {% endif %}
+
+            <section class="overview" aria-label="Processing overview">
+                <article class="metric metric-total panel">
+                    <div class="metric-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 4 18.5v-13Z"/><path d="m8 15 2.5-3 2 2 2.5-3 2 3M8 8.5h.01"/></svg>
+                    </div>
+                    <div class="metric-content"><span class="metric-label">Total images</span><strong class="metric-value" data-overview="total">{{ overview.total }}</strong><span class="metric-caption">All uploaded samples</span></div>
+                </article>
+                <article class="metric metric-queued panel">
+                    <div class="metric-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M6 4h12v4H6zM6 10h12v4H6zM6 16h12v4H6z"/><path d="M3 6h1M3 12h1M3 18h1"/></svg></div>
+                    <div class="metric-content"><span class="metric-label">Queued</span><strong class="metric-value" data-overview="queued">{{ overview.queued }}</strong><span class="metric-caption">Waiting for a worker</span></div>
+                </article>
+                <article class="metric metric-processing panel">
+                    <div class="metric-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.64 5.64l2.83 2.83M15.53 15.53l2.83 2.83M18.36 5.64l-2.83 2.83M8.47 15.53l-2.83 2.83"/><circle cx="12" cy="12" r="3"/></svg></div>
+                    <div class="metric-content"><span class="metric-label">Processing</span><strong class="metric-value" data-overview="processing">{{ overview.processing }}</strong><span class="metric-caption">Active worker tasks</span></div>
+                </article>
+                <article class="metric metric-completed panel">
+                    <div class="metric-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="m8 12 2.5 2.5L16 9"/></svg></div>
+                    <div class="metric-content"><span class="metric-label">Completed</span><strong class="metric-value" data-overview="completed">{{ overview.completed }}</strong><span class="metric-caption">Successfully classified</span></div>
+                </article>
+                <article class="metric metric-failed panel">
+                    <div class="metric-icon" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><path d="M12 4 21 20H3L12 4Z"/><path d="M12 9v5M12 17h.01"/></svg></div>
+                    <div class="metric-content"><span class="metric-label">Failed</span><strong class="metric-value" data-overview="failed">{{ overview.failed }}</strong><span class="metric-caption">Needs attention</span></div>
+                </article>
+            </section>
+
+            <div class="main-grid">
+                <form id="upload-form" class="upload-panel panel" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="section-heading"><div><h2>Image intake</h2><p>Queue multiple samples for independent worker tasks.</p></div><span class="metric-label">Batch input</span></div>
+                    <div id="upload-zone" class="upload-zone">
+                        <h3>Drop image files here</h3><p>PNG, JPG, and other valid image formats. Maximum 10 MB per file.</p>
+                        <label class="file-label" for="id_images">Choose images</label>{{ form.images }}
+                    </div>
+                    <div class="form-errors">{{ form.non_field_errors }}</div>
+                    <div class="queue-meta"><span id="selection-count">No images selected.</span><span>Preview queue</span></div>
+                    <div id="preview-list"></div>
+                    <div class="upload-actions"><button id="submit-button" class="primary-button" type="submit" disabled>Start classification</button></div>
+                </form>
+
+                <aside class="side-stack">
+                    <section class="node-panel panel">
+                        <div class="section-heading"><div><h2>Compute nodes</h2></div></div>
+                        <div class="node-list">
+                            {% for node in nodes %}
+                                <article class="node-card" data-node-name="{{ node.name }}">
+                                    <header><span class="node-name">{{ node.name }}</span><span class="node-state">{{ node.state }}</span></header>
+                                    <p class="node-info">{{ node.workers|length }} worker(s) | {{ node.tasks }} task(s)<br>{{ node.processing }} processing | {{ node.completed }} completed | {{ node.failed }} failed</p>
+                                </article>
+                            {% empty %}<p class="empty-state">No worker activity observed yet.</p>{% endfor %}
+                        </div>
+                    </section>
+                    <section class="worker-panel panel">
+                        <div class="section-heading"><div><h2>Worker status</h2></div></div>
+                        <div class="worker-list">
+                            {% for node in nodes %}{% for worker in node.workers %}<span class="worker-chip">{{ worker }}</span>{% endfor %}{% empty %}<span class="empty-state">Workers appear after the first task starts.</span>{% endfor %}
+                        </div>
+                    </section>
+                </aside>
+            </div>
+
+            <section id="classification-results" class="batch-section panel">
+                <div class="section-heading"><div><h2>Classification results</h2></div><span class="metric-label">Owned batches</span></div>
+                {% for batch in batches %}
+                    <article class="batch-card" id="batch-{{ batch.id }}" data-batch-id="{{ batch.id }}" data-total="{{ batch.total_images }}" data-queued="{{ batch.queued_count }}" data-processing="{{ batch.processing_count }}" data-completed="{{ batch.completed_count }}" data-failed="{{ batch.failed_count }}">
+                        <div class="batch-header"><h3>Batch {{ batch.id }} <span class="metric-label">/ {{ batch.created_at|date:"M j, Y H:i" }}</span></h3><span class="batch-status" data-field="batch-status">{{ batch.status }}</span></div>
+                        <div class="batch-summary"><span>Progress <strong data-field="progress">{{ batch.progress_percent }}%</strong></span><span>Average confidence <strong data-field="average-confidence">{% if batch.average_confidence is not None %}{{ batch.average_confidence|floatformat:3 }}{% else %}-{% endif %}</strong></span><span>Total batch time <strong>{% if batch.total_processing_time is not None %}{{ batch.total_processing_time|floatformat:3 }}s{% else %}-{% endif %}</strong></span></div>
+                        <div class="progress-track"><span data-field="progress-bar" style="width:{{ batch.progress_percent }}%"></span></div>
+                        <table class="result-table">
+                            <thead><tr><th>Image</th><th>Status</th><th>Prediction</th><th>Confidence</th><th>Processed time</th><th>Worker</th><th>Node</th></tr></thead>
+                            <tbody>
+                                {% for result in batch.results.all %}
+                                    <tr data-result-id="{{ result.id }}">
+                                        <td class="result-image" title="{{ result.image.name }}">{{ result.image.name }}</td>
+                                        <td><span class="result-status" data-field="result-status">{{ result.status }}</span></td>
+                                        <td data-field="prediction">{{ result.predicted_class|default:"-" }}</td>
+                                        <td class="confidence-cell"><span data-field="confidence">{% if result.confidence is not None %}{{ result.confidence|floatformat:3 }}{% else %}-{% endif %}</span><div class="confidence-bar"><span data-field="confidence-bar" style="width:{% if result.confidence is not None %}{{ result.confidence|floatformat:3 }}{% else %}0{% endif %}%"></span></div><small data-field="confidence-state"></small></td>
+                                        <td data-field="processing-time">{% if result.processing_time is not None %}{{ result.processing_time|floatformat:3 }}s{% else %}-{% endif %}</td>
+                                        <td data-field="worker">{{ result.worker_name|default:"-" }}</td>
+                                        <td data-field="node">{{ result.node_name|default:"-" }}</td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </article>
+                {% empty %}<p class="empty-state">No classification batches yet.</p>{% endfor %}
+            </section>
+        </main>
+    </div>
+    <script src="{% static 'js/dashboard.js' %}"></script>
+</body>
+</html>

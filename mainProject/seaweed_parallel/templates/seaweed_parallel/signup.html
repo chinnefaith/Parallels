@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ShellScan | Create account</title>
+	<link rel="stylesheet" href="{% static 'css/signin.css' %}">
+</head>
+<body>
+	<main class="signin-layout">
+		<section class="scan-panel" aria-label="ShellScan shell classification workspace">
+			<a class="product-mark" href="{% url 'signin' %}" aria-label="ShellScan home">
+				<img src="{% static 'images/logo.png' %}" alt="">
+				<span>ShellScan</span>
+			</a>
+
+			<div class="scan-content">
+				<div class="scan-stage" aria-label="Animated scan of the ShellScan logo">
+					<div class="scan-orbit" aria-hidden="true"></div>
+					<div class="scan-corners" aria-hidden="true"></div>
+					<img class="scan-logo" src="{% static 'images/logo.png' %}" alt="ShellScan shell and wave logo">
+					<div class="scan-sweep" aria-hidden="true"></div>
+				</div>
+				<p class="scan-caption">FAMILY · Cyrenidae <span>GENUS · Geloina</span></p>
+			</div>
+
+			<div class="panel-copy">
+				<h1>Every shell has a name.</h1>
+				<p>A classification workspace for your scans.</p>
+			</div>
+			<div class="panel-waves" aria-hidden="true"><span></span><span></span></div>
+		</section>
+
+		<section class="form-panel" aria-labelledby="signup-heading">
+			<div class="form-wrap">
+				<h1 id="signup-heading">Create your account</h1>
+				<p class="form-intro">Join ShellScan to classify and explore your scans.</p>
+
+				<form method="post">
+					{% csrf_token %}
+					{% if form.non_field_errors %}
+						<div class="signup-errors" role="alert">{{ form.non_field_errors }}</div>
+					{% endif %}
+					{% for field in form %}
+						<div class="signup-field">
+							{{ field.label_tag }}
+							{% if field.name == "password1" or field.name == "password2" %}
+								<div class="password-field">
+									{{ field }}
+									<button class="password-toggle" type="button" aria-label="Show password" aria-controls="{{ field.id_for_label }}" aria-pressed="false">
+										<svg class="eye-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+											<path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"></path>
+											<circle cx="12" cy="12" r="3"></circle>
+										</svg>
+										<svg class="eye-closed-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" hidden>
+											<path d="M2 12c2.5 3.1 5.8 4.7 10 4.7s7.5-1.6 10-4.7"></path>
+											<path d="m5 8.5-1.5-1.7M9 6.4 8.5 4.2M15 6.4l.5-2.2M19 8.5l1.5-1.7"></path>
+										</svg>
+									</button>
+								</div>
+							{% else %}
+								{{ field }}
+							{% endif %}
+							{% if field.errors %}
+								<div class="field-errors" role="alert">{{ field.errors }}</div>
+							{% endif %}
+						</div>
+					{% endfor %}
+
+					<button type="submit">Create an account</button>
+				</form>
+
+				<div class="signup-prompt">
+					<p>Already have an account?</p>
+					<a class="signup-link" href="{% url 'signin' %}">Sign in</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script>
+		document.querySelectorAll('.password-toggle').forEach((toggle) => {
+			const passwordInput = document.getElementById(toggle.getAttribute('aria-controls'));
+			const eyeIcon = toggle.querySelector('.eye-icon');
+			const eyeClosedIcon = toggle.querySelector('.eye-closed-icon');
+
+			toggle.addEventListener('click', () => {
+				const isVisible = passwordInput.type === 'password';
+				passwordInput.type = isVisible ? 'text' : 'password';
+				toggle.setAttribute('aria-label', isVisible ? 'Hide password' : 'Show password');
+				toggle.setAttribute('aria-pressed', String(isVisible));
+				eyeIcon.toggleAttribute('hidden', isVisible);
+				eyeClosedIcon.toggleAttribute('hidden', !isVisible);
+			});
+		});
+	</script>
+</body>
+</html>
